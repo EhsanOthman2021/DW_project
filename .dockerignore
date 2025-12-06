@@ -1,0 +1,34 @@
+# Ignore virtual environments
+.venv/
+venv/
+
+# Ignore git
+.git/
+.gitignore
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Data folders (too big)
+data/db
+data/raw/
+data/processed_pre/
+data/splits/
+
+logs/
+reports/
+offload/
+
+# AWS bundles
+*.zip
+
+# DVC cache (if used)
+.dvc/
+
+# Local development files
+.vscode/
+*.log
+
+# Large artifacts
+models/

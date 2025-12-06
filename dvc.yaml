@@ -1,0 +1,35 @@
+stages:
+  preprocessing:
+    cmd: python src/preprocessing/main.py
+    deps:
+      - src/preprocessing/main.py
+      - src/preprocessing/prepare_disk_data.py
+      - src/preprocessing/prepare_S3_data.py
+      - src/preprocessing/parse_data.py
+      - src/preprocessing/apply_LLM.py
+    outs:
+      - data/raw/
+      - data/processed/
+
+  db_pipeline:
+    cmd: python src/db/main.py
+    deps:
+      - src/db/main.py
+      - src/db/load_json_to_df.py
+      - src/db/clean_df.py
+      - src/db/store_data.py
+      - data/processed/
+    outs:
+      - data/db/
+
+  ml_pipeline:
+    cmd: python src/ml/main.py
+    deps:
+      - src/ml/main.py
+      - src/ml/prepare_input.py
+      - src/ml/train_model.py
+      - src/ml/evaluation.py
+      - data/db/
+    outs:
+      - models/
+      - reports/
