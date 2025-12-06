@@ -1,0 +1,54 @@
+{
+  "invoice_number": "INVES8I7875",
+  "invoice_date": "29-Aug-2004",
+  "due_date": null,
+  "vendor": {
+    "name": "Woods-Gibbs",
+    "address": "696 Thompson Forest, Ashleybury, AR 73994 US",
+    "email": "amanda25@example.org",
+    "phone": null,
+    "website": null
+  },
+  "buyer": {
+    "name": "Brooke Baldwin",
+    "address": "0901 Ward Prairie, Lake Brianfurt, TX 83758 US",
+    "email": "mestes@example.org",
+    "phone": "+(277)671-7598",
+    "website": "http://llorr.com/"
+  },
+  "line_items": [
+    {
+      "description": "Pm likely practice",
+      "quantity": 6,
+      "unit_price": 56.02,
+      "amount": 336.12
+    },
+    {
+      "description": "Federal",
+      "quantity": 3,
+      "unit_price": 27.86,
+      "amount": 83.58
+    },
+    {
+      "description": "Out with throw call",
+      "quantity": 3,
+      "unit_price": 62.98,
+      "amount": 188.94
+    }
+  ],
+  "totals": {
+    "subtotal": 608.64,
+    "discount": 0,
+    "taxes": 0,
+    "total_amount": 604.36,
+    "currency": "EUR"
+  },
+  "bank_info": {
+    "bank_name": "First National Bank",
+    "address": "1000 Main Street, Anytown, TX 73758 US",
+    "account_number": "123456789",
+    "routing_number": "987654321"
+  },
+  "notes": "Please make payment by check or money order.",
+  "terms": "Net 30"
+}

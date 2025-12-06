@@ -1,0 +1,42 @@
+{
+  "invoice_number": "9Y2M9d-571",
+  "invoice_date": "26-Feb-2004",
+  "due_date": "23-Aug-2001",
+  "vendor": {
+    "name": "Murphy-Gallegos",
+    "address": "045 David Walk Suite 362, East Robert, NV 70596 US"
+  },
+  "buyer": {
+    "name": "Travis Shaffer",
+    "address": "880 Barry Common Apt. 920, North Kelseyborough, AK 55800 US",
+    "email": "rwhite@example.org",
+    "phone": "+(457)576-6082",
+    "website": "https://www.austin-massey.info/"
+  },
+  "line_items": [
+    {
+      "description": "Large explain response",
+      "quantity": 5.00,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Sometimes none conference",
+      "quantity": 6.00,
+      "unit_price": 400.70,
+      "amount": null
+    }
+  ],
+  "totals": {
+    "subtotal": null,
+    "discount": 0,
+    "taxes": {
+      "VAT_5.77_percent": 26.59
+    },
+    "total_amount": 474.80,
+    "currency": "EUR"
+  },
+  "bank_info": null,
+  "notes": "Thank you for choosing us!",
+  "terms": null
+}

@@ -1,0 +1,53 @@
+{
+  "invoice_number": "1D 7343-488",
+  "invoice_date": "30-Mar-2002",
+  "due_date": "14-May-2016",
+
+  "vendor": {
+    "name": "Richardson-Davis",
+    "address": "6479 Smith Causeway, East Camerontown, AS 38212 US"
+  },
+
+  "buyer": {
+    "name": "Angela Steele",
+    "address": "3072 Huang Wells Suite 779, South Stephen, NY 78533 US",
+    "email": "jason82@example.com",
+    "phone": "+(323)154-0746",
+    "website": "http://www.burgess.com/"
+  },
+
+  "line_items": [
+    {
+      "description": "tea wp.",
+      "quantity": 7.00,
+      "unit_price": 459400,
+      "amount": 4807.00
+    },
+    {
+      "description": "vast",
+      "quantity": 1.00,
+      "unit_price": 33.50,
+      "amount": 33.50
+    }
+  ],
+
+  "totals": {
+    "subtotal": 141.72,
+    "discount": -2.37,
+    "taxes": {
+      "VAT_3.76_percent": 5.32
+    },
+    "total_amount": 140.08,
+    "currency": "USD"
+  },
+
+  "bank_info": {
+    "bank_name": "State Bank of California",
+    "branch_name": "Raf CAMP",
+    "account_number": "17408845",
+    "swift_code": "SBININBB250"
+  },
+
+  "notes": "Payment will be charged if payment is not made within the due date. Total in words: one hundred and forty point zero eight.",
+  "terms": "Not specified"
+}

@@ -1,0 +1,70 @@
+{
+  "invoice_number": "2Y5M7d-039",
+  "invoice_date": "04-Jan-2017",
+  "due_date": null,
+
+  "vendor": {
+    "name": "Robinson-Carson",
+    "gstin": "37LTOQASACEIZS",
+    "address": "28713 Hart Fort Suite 267, Stewarttown, MI 55458 US",
+    "email": null,
+    "phone": null,
+    "website": null
+  },
+
+  "buyer": {
+    "name": "Christopher Harris",
+    "address": "50681 Allen Islands, North Brian, NE 78299 US",
+    "email": "kathy04@example.net",
+    "phone": "(145)705-0675",
+    "website": "https://andrews.com/"
+  },
+
+  "ship_to": {
+    "name": "Ashley Small",
+    "address": "0726 Solomon Light, North Matthewmouth, NC 06238 US",
+    "email": "laurenweaver@example.net",
+    "phone": "(076)868-8594",
+    "website": "http://www.kennedy-potts.com/"
+  },
+
+  "line_items": [
+    {
+      "description": "Guy treat blood picture.",
+      "quantity": 3.00,
+      "unit_price": 15.74,
+      "amount": 47.22
+    },
+    {
+      "description": "Much everything.",
+      "quantity": 5.00,
+      "unit_price": 54.44,
+      "amount": 272.20
+    },
+    {
+      "description": "Garden main issue.",
+      "quantity": 6.00,
+      "unit_price": 92.28,
+      "amount": 553.68
+    },
+    {
+      "description": "Music look though.",
+      "quantity": 3.00,
+      "unit_price": 1.18,
+      "amount": 3.54
+    }
+  ],
+
+  "totals": {
+    "subtotal": 876.64,
+    "discount": 0,
+    "taxes": null,
+    "total_amount": 903.67,
+    "currency": "EUR"
+  },
+
+  "bank_info": null,
+
+  "notes": "Total in words: nine hundred and three point six seven.",
+  "terms": null
+}

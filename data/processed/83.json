@@ -1,0 +1,59 @@
+{
+  "invoice_number": "INV15023376",
+  "invoice_date": "17-Jan-2016",
+  "due_date": "17-Feb-2016",
+
+  "vendor": {
+    "name": "Patton, Ortiz and Moore",
+    "address": "07924 Daniel View, North Austinhaven, AK 96663 US",
+    "email": "wilsonadrienne@example.net",
+    "website": "https://www.PattonOrtizandMoore.org"
+  },
+
+  "buyer": {
+    "name": "Kathy Wiggins",
+    "address": "21254 Smith Islands, Welchstad, VA 41341 US",
+    "email": "marklee@example.com",
+    "phone": "(050)429-6142",
+    "website": "http://williams-wright.com/"
+  },
+
+  "line_items": [
+    {
+      "description": "Seat activity",
+      "quantity": 5.00,
+      "unit_price": 62.05,
+      "amount": 310.25
+    },
+    {
+      "description": "Describe performance current",
+      "quantity": 1.00,
+      "unit_price": 62.63,
+      "amount": 62.63
+    },
+    {
+      "description": "Land beautiful design",
+      "quantity": 3.00,
+      "unit_price": 82.04,
+      "amount": 246.12
+    }
+  ],
+
+  "totals": {
+    "subtotal": 618.99,
+    "discount": 0.00,
+    "taxes": 0.00,
+    "total_amount": 349.80,
+    "currency": "USD"
+  },
+
+  "bank_info": {
+    "bank_name": "State Bank of California",
+    "branch_name": "Raf CAMP",
+    "account_number": "14150302",
+    "swift_code": "SBININBB250"
+  },
+
+  "notes": "Payment due by 17-Feb-2016. Please make payment to the provided bank account. Thank you for your business.",
+  "terms": "Net 30"
+}

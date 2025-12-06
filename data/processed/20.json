@@ -1,0 +1,58 @@
+{
+  "invoice_number": "3389-251",
+  "invoice_date": "11-Mar-2001",
+  "due_date": "14-Apr-1993",
+  "vendor": {
+    "name": "Paul Gibson and Anderson",
+    "address": "938 Gonzalez Key Suite 573, New Anitaport, MN 04941 US",
+    "email": "susan62@example.com",
+    "website": "www.PaulGibsonandAnderson.com"
+  },
+  "buyer": {
+    "name": "Tara Chapman",
+    "address": "2485 Micholle Light Apt. 285, Lake Gregory, AK 50145 US",
+    "email": "jesse@example.org",
+    "phone": "+(033)438-2701",
+    "website": "https://sheppard.biz/"
+  },
+  "line_items": [
+    {
+      "description": "Forward turn without.",
+      "quantity": "6.00",
+      "unit_price": "12.32",
+      "amount": "73.92"
+    },
+    {
+      "description": "Sort and push.",
+      "quantity": "2.00",
+      "unit_price": "44.42",
+      "amount": "88.84"
+    },
+    {
+      "description": "Sometimes main politics.",
+      "quantity": "3.00",
+      "unit_price": "84.03",
+      "amount": "252.09"
+    },
+    {
+      "description": "Police magazine all",
+      "quantity": "6.00",
+      "unit_price": "67.48",
+      "amount": "404.70"
+    }
+  ],
+  "totals": {
+    "subtotal": "819.55",
+    "discount": "24.42",
+    "taxes": "50.04",
+    "total_amount": "857.71",
+    "currency": "EUR"
+  },
+  "bank_info": {
+    "account_name": "",
+    "iban": "",
+    "bic": ""
+  },
+  "notes": "",
+  "terms": ""
+}

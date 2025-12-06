@@ -3,24 +3,17 @@
 __pycache__/
 
 # Data folders (handled by DVC)
-data/
-models/
-reports/
 offload/
-logs/
+data copy/
 
 # AWS / Zip files
 aws/
 *.zip
 
-# CSV / JSON large outputs
-*.csv
-*.json
 
 # DVC cache directory
 .dvc/cache/
 
 # VSCode
 .vscode/
-.env
 .env

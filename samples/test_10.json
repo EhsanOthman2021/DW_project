@@ -1,0 +1,47 @@
+{
+  "invoice_number": "INV/01-62/982",
+  "invoice_date": "04-Aug-2007",
+  "due_date": "15-Jan-2001",
+  "vendor": {
+    "name": "Kirk, Murphy and Daniels",
+    "address": "",
+    "email": "",
+    "website": ""
+  },
+  "buyer": {
+    "name": "Austin Allen",
+    "address": "479 Kenneth Spring, Jacobport, FL 21911 US",
+    "phone": "+(540)523-0937",
+    "email": "pprice@example.org",
+    "website": "https://www.williams.com/"
+  },
+  "ship_to": {},
+  "line_items": [
+    {
+      "description": "Maintain thing space.",
+      "quantity": "1.00",
+      "unit_price": "60.17",
+      "amount": "60.17"
+    },
+    {
+      "description": "Eye much.",
+      "quantity": "1.00",
+      "unit_price": "47.64",
+      "amount": "47.64"
+    },
+    {
+      "description": "Tonight unit record.",
+      "quantity": "2.00",
+      "unit_price": "8.59",
+      "amount": "17.18"
+    }
+  ],
+  "totals": {
+    "subtotal": "",
+    "taxes": "5.57",
+    "discount": "",
+    "total_amount": "127.75"
+  },
+  "notes": "Total payment due in 14 days.",
+  "terms": "Total in words: one hundred and twenty-seven point seven five"
+}

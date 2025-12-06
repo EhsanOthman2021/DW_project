@@ -1,0 +1,66 @@
+{
+  "invoice_number": "5Y6M5d-505",
+  "invoice_date": "21-Jul-2012",
+  "due_date": "",
+
+  "vendor": {
+    "name": "Robinson-Carson",
+    "address": "28713 Hart Fort Suite 267, Stewarttown, MI 55458 US",
+    "email": "",
+    "phone": "",
+    "website": ""
+  },
+
+  "buyer": {
+    "name": "April Lopez",
+    "address": "142 Jackson Trafficway, North Ronaldhaven, MS 46496 US",
+    "phone": "+(519)670-8573",
+    "email": "jonesetina@example.com",
+    "website": "http://mann.net/"
+  },
+
+  "ship_to": {
+    "name": "Kimberly Bradford",
+    "address": "08222 Henry Burg Apt. 346, North Kevin, MA 51614 US",
+    "phone": "+(675)084-8941",
+    "email": "robert40@example.com",
+    "website": "http://riley.biz/"
+  },
+
+  "line_items": [
+    {
+      "description": "Quite worker.",
+      "quantity": "1.00",
+      "unit_price": "5.18",
+      "amount": "5.18"
+    },
+    {
+      "description": "Reveal prepare.",
+      "quantity": "6.00",
+      "unit_price": "36.35",
+      "amount": "218.10"
+    },
+    {
+      "description": "List.",
+      "quantity": "6.00",
+      "unit_price": "43.23",
+      "amount": "259.38"
+    },
+    {
+      "description": "Another human assume.",
+      "quantity": "3.00",
+      "unit_price": "80.57",
+      "amount": "241.71"
+    }
+  ],
+
+  "totals": {
+    "subtotal": "724.37",
+    "taxes": "",
+    "discount": "",
+    "total_amount": "761.08"
+  },
+
+  "notes": "Total in words: seven hundred and sixty-one point zero eight",
+  "terms": ""
+}

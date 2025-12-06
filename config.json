@@ -1,0 +1,6 @@
+{
+  "paths": {
+    "png_dir": "data/raw/png",
+    "pdf_dir": "data/raw/pdfs"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "invoice_number": "9¥4M2d-488",
+  "invoice_date": "26-Oct-2002",
+  "due_date": "02-Mar-1998",
+  "vendor": {
+    "name": null,
+    "address": "02850 Nicole Ferry Apt. 873, Lake Antonioshire, MA 17317 US",
+    "email": null,
+    "phone": null,
+    "website": null
+  },
+  "buyer": {
+    "name": null,
+    "address": null,
+    "email": null,
+    "phone": null,
+    "website": null
+  },
+  "line_items": [
+    {
+      "description": "Tonight fond human side.",
+      "quantity": 2.00,
+      "unit_price": 45.38,
+      "amount": 90.76
+    },
+    {
+      "description": "Whole main tough.",
+      "quantity": 5.00,
+      "unit_price": 40.77,
+      "amount": 203.85
+    },
+    {
+      "description": "Form enough.",
+      "quantity": 2.00,
+      "unit_price": 93.07,
+      "amount": 186.14
+    }
+  ],
+  "totals": {
+    "subtotal": 480.75,
+    "discount": 0,
+    "taxes": null,
+    "total_amount": 484.90,
+    "currency": "EUR"
+  },
+  "bank_info": {
+    "bank_name": "Central Bank of England",
+    "branch_name": "Raf CAMP",
+    "account_number": "19819762",
+    "swift_code": "SBININBB250"
+  },
+  "notes": "All payments to be made in cash. Contact us for queries on these quotations.",
+  "terms": "A fee will be charged if payment is not made within the due date."
+}

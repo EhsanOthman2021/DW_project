@@ -1,0 +1,67 @@
+{
+  "invoice_number": "2637-094",
+  "invoice_date": "10-Jul-2002",
+  "due_date": "14 days after invoice date",
+  "vendor": {
+    "name": "Patel Reid",
+    "address": "223 Kristen Mission Suite 986, Hernandezport, DE 40016 US",
+    "email": "rivassarah@example.org"
+  },
+  "buyer": {
+    "name": "Peter Casey",
+    "address": "61452 William Mountain, West Dennis, NJ 43110 US",
+    "email": "reedrussell@example.org",
+    "phone": "+(204)353-6595",
+    "website": "http://meguire.com"
+  },
+  "line_items": [
+    {
+      "description": "Between must.",
+      "quantity": "6.00",
+      "unit_price": "17.79",
+      "amount": "106.74"
+    },
+    {
+      "description": "Become three.",
+      "quantity": "3.00",
+      "unit_price": "87.27",
+      "amount": "261.81"
+    },
+    {
+      "description": "We add.",
+      "quantity": "4.00",
+      "unit_price": "28.92",
+      "amount": "115.68"
+    },
+    {
+      "description": "President occur star.",
+      "quantity": "1.00",
+      "unit_price": "20.38",
+      "amount": "20.38"
+    },
+    {
+      "description": "Today college section.",
+      "quantity": "1.00",
+      "unit_price": "45.53",
+      "amount": "45.53"
+    }
+  ],
+  "totals": {
+    "subtotal": "550.14",
+    "discount": "0.00",
+    "taxes": "110.06",
+    "total_amount": "660.20"
+  },
+  "bank_info": {
+    "account_name": "Patel Reid",
+    "account_number": "123456789",
+    "bank_name": "Bank of America",
+    "branch": "123456",
+    "city": "Philadelphia",
+    "state": "PA",
+    "zip": "19102",
+    "country": "US"
+  },
+  "notes": "Thank you for your business.",
+  "terms": "Payment due in 14 days."
+}

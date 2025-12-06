@@ -1,0 +1,49 @@
+{
+  "invoice_number": "4YSMBd-964",
+  "invoice_date": "03-Apr-1998",
+  "due_date": "03-May-1998",
+  "vendor": {
+    "name": "Brian Barber",
+    "address": "6768 Hernandez Haven, Lake Yolanda, AR 92373 US",
+    "email": "tatemegan@example.org",
+    "phone": "+(902)908-9736",
+    "website": "https://www.moody.com/",
+    "gstin": "24AADCP1453)/AZZ"
+  },
+  "buyer": {
+    "name": "",
+    "address": "047 Jackson Meadows Apt. 391, Pearsonmouth, OH 83042 US",
+    "email": "",
+    "phone": "",
+    "website": ""
+  },
+  "line_items": [
+    {
+      "description": "Forget join again.",
+      "quantity": "6.00",
+      "unit_price": "33.02",
+      "amount": "198.12"
+    },
+    {
+      "description": "Industry carry.",
+      "quantity": "1.00",
+      "unit_price": "90.10",
+      "amount": "90.10"
+    }
+  ],
+  "totals": {
+    "subtotal": "288.22",
+    "discount": "3.56",
+    "taxes": "2.99",
+    "total_amount": "294.77",
+    "currency": "USD"
+  },
+  "bank_info": {
+    "bank_name": "Moody Bank",
+    "bank_address": "1234 Main St, Springfield, IL 62704 US",
+    "account_number": "123456789",
+    "routing_number": "123456789"
+  },
+  "notes": "Payment terms: Net 30. Payment method: Bank transfer. Payment due by 03-May-1998.",
+  "terms": "Payment terms: Net 30. Payment due by 03-May-1998. Payment method: Bank transfer."
+}

@@ -1,0 +1,63 @@
+{
+  "invoice_number": "INV167-71/094",
+  "invoice_date": "23-Jul-2004",
+  "due_date": "25-Dec-2003",
+  "vendor": {
+    "name": "",
+    "address": "938 Gonzalez Key Suite 573, New Anitaport, MN 04941 US",
+    "email": "susan62@example.com",
+    "phone": "",
+    "website": "www.PaulGibsonandAnderson.com"
+  },
+  "buyer": {
+    "name": "Rodney Hogan",
+    "address": "504 Kennedy Pine, Jenniferhaven, IA 55190 US",
+    "email": "ittkatherine@example.net",
+    "phone": "+(118)387-4022",
+    "website": "https://www.mason-ford.com/"
+  },
+  "line_items": [
+    {
+      "description": "Political deep.",
+      "quantity": "2.00",
+      "unit_price": "98.44",
+      "amount": "196.88"
+    },
+    {
+      "description": "Door business and.",
+      "quantity": "1.00",
+      "unit_price": "57.90",
+      "amount": "57.90"
+    },
+    {
+      "description": "Gun pay hot.",
+      "quantity": "4.00",
+      "unit_price": "49.55",
+      "amount": "198.20"
+    },
+    {
+      "description": "Financial cost through.",
+      "quantity": "5.00",
+      "unit_price": "69.88",
+      "amount": "349.40"
+    }
+  ],
+  "totals": {
+    "subtotal": "802.23",
+    "discount": "14.6",
+    "taxes": "55.17",
+    "total_amount": "819.78",
+    "currency": "USD"
+  },
+  "bank_info": {
+    "bank_name": "",
+    "bank_address": "",
+    "account_number": "",
+    "routing_number": "",
+    "swift_code": "",
+    "iban": "",
+    "country": ""
+  },
+  "notes": "",
+  "terms": ""
+}

@@ -1,0 +1,62 @@
+{
+  "invoice_number": "8643-519",
+  "invoice_date": "07-Aug-2018",
+  "due_date": "18-Sep-2014",
+
+  "vendor": {
+    "name": "Stein-Fernandez",
+    "address": "0344 Jonathan Club, Port Patriciahsire, PW 72063 US",
+    "email": "",
+    "phone": "",
+    "website": ""
+  },
+
+  "buyer": {
+    "name": "Anthony Harris",
+    "address": "981 William Road Apt. 110, Joshuaborough, RI 05401 US",
+    "phone": "+(810)017-6629",
+    "email": "markalvarez@example.org",
+    "website": "http://www.martin-delgado.com/"
+  },
+
+  "ship_to": {
+    "name": "",
+    "address": "",
+    "phone": "",
+    "email": "",
+    "website": ""
+  },
+
+  "line_items": [
+    {
+      "description": "Reduce state.",
+      "quantity": "6.00",
+      "unit_price": "79.98",
+      "amount": "479.88"
+    },
+    {
+      "description": "Yourself.",
+      "quantity": "6.00",
+      "unit_price": "17.78",
+      "amount": "106.68"
+    }
+  ],
+
+  "totals": {
+    "subtotal": "586.56",
+    "discount": "21.53",
+    "taxes": "20.77",
+    "total_amount": "600.17",
+    "currency": "EUR"
+  },
+
+  "bank_info": {
+    "bank_name": "Central Bank of California",
+    "branch": "Raf CAMP",
+    "account_number": "17729284",
+    "swift_code": "SBININBB250"
+  },
+
+  "notes": "This order is shipped through blue dart courier. Total in words: six hundred point one seven",
+  "terms": "Will be charged if payment is not made within the due date."
+}

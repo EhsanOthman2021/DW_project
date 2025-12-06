@@ -1,0 +1,84 @@
+{
+  "invoice_number": "INV/00-14/786",
+  "invoice_date": "24-May-2003",
+  "due_date": "05-Feb-2010",
+
+  "vendor": {
+    "name": "Yoder LLC",
+    "address": "010 Jeffrey Glens, Port Toddport, DC 16594 US",
+    "gstin": "GSTIN4321AAD22",
+    "email": null,
+    "phone": null,
+    "website": null
+  },
+
+  "buyer": {
+    "name": "Kristina Ayers",
+    "address": "4348 Norris Dale Apt. 891, Hellechester, IA 43482 US",
+    "email": "sarah26@example.net",
+    "phone": null,
+    "website": "https://www.green-barnes.com/"
+  },
+
+  "line_items": [
+    {
+      "description": "Knowledge prepare.",
+      "quantity": 5.00,
+      "unit_price": 8.04,
+      "amount": 40.20
+    },
+    {
+      "description": "Arm total",
+      "quantity": 3.00,
+      "unit_price": 25.30,
+      "amount": 75.90
+    },
+    {
+      "description": "Partner everything process.",
+      "quantity": 3.00,
+      "unit_price": 69.57,
+      "amount": 208.71
+    },
+    {
+      "description": "Instead best both.",
+      "quantity": 5.00,
+      "unit_price": 78.15,
+      "amount": 390.75
+    },
+    {
+      "description": "Final interview.",
+      "quantity": 3.00,
+      "unit_price": 30.65,
+      "amount": 91.95
+    }
+  ],
+
+  "totals": {
+    "subtotal": 156.75,
+    "discount": 0.00,
+    "taxes": 15.68,
+    "total_amount": 172.43,
+    "currency": "USD"
+  },
+
+  "bank_info": {
+    "account_name": "Yoder LLC",
+    "account_number": "123456789",
+    "bank_name": "Bank of America",
+    "routing_number": "123456789",
+    "swift_bic": "BANKOFAMERICA",
+    "branch": "Port Toddport",
+    "branch_address": "010 Jeffrey Glens",
+    "branch_city": "Port Toddport",
+    "branch_state": "DC",
+    "branch_zip": "16594",
+    "branch_country": "US",
+    "branch_phone": "123-456-7890",
+    "branch_fax": "123-456-7891",
+    "branch_email": "bankofamerica@example.com"
+  },
+
+  "notes": "This order is shipped through blue dart courier",
+  
+  "terms": "Payment terms: Net 30; Payment method: Bank transfer"
+}

@@ -1,0 +1,67 @@
+{
+  "invoice_number": "INV15963902",
+  "invoice_date": "26-May-2000",
+  "due_date": "21-Mar-2001",
+  "vendor": {
+    "name": "Not specified",
+    "address": "6030 Willie Shores Suite 354, Guerraton, TX 60058 US",
+    "email": "wnchristopher@example.org",
+    "website": "http://kipesiramiton.com/"
+  },
+  "buyer": {
+    "name": "Lawrence Mills",
+    "address": "8640 Smith Square Apt. 450, Kelly-Moss Granebury, MN 05215 US",
+    "email": "meghan88@example.net",
+    "phone": null,
+    "website": null
+  },
+  "line_items": [
+    {
+      "description": "Leader that",
+      "quantity": 5.00,
+      "unit_price": 74.32,
+      "amount": 371.60
+    },
+    {
+      "description": "Treat shoulder",
+      "quantity": 5.00,
+      "unit_price": 74.49,
+      "amount": 372.45
+    },
+    {
+      "description": "Pull movement son",
+      "quantity": 1.00,
+      "unit_price": 76.66,
+      "amount": 76.66
+    },
+    {
+      "description": "Again evening more",
+      "quantity": 5.00,
+      "unit_price": 1.09,
+      "amount": 5.45
+    }
+  ],
+  "totals": {
+    "subtotal": 826.16,
+    "discount": 0,
+    "taxes": {
+      "GST_5_percent": 41.31,
+      "GST_12_percent": 9.14,
+      "GST_18_percent": 148.71,
+      "GST_20_percent": 165.23,
+      "GST_1_percent": 8.26
+    },
+    "total_amount": 851.51,
+    "currency": "USD"
+  },
+  "bank_info": {
+    "bank_name": "Bank of America",
+    "account_number": "123456789",
+    "routing_number": "123456789",
+    "branch": "1234",
+    "branch_address": "1234 Main St., San Francisco, CA 94105 US",
+    "country": "US"
+  },
+  "notes": "Payment due within 30 days of invoice date.",
+  "terms": "Net 30"
+}

@@ -1,0 +1,59 @@
+{
+  "invoice_number": "1966-282",
+  "invoice_date": "09-Feb-2000",
+  "due_date": "",
+  "vendor": {
+    "name": "Robinson-Carson",
+    "address": "28713 Hart Fort Suite 267, Stewarttown, MI 55458 US",
+    "email": "",
+    "website": ""
+  },
+  "buyer": {
+    "name": "Morgan Walker",
+    "address": "301 Gutierrez Trafficway, North Arielhaven, TN 28123 US",
+    "phone": "+(702)729-3859",
+    "email": "zcarroll@example.org",
+    "website": "http://hill.com/"
+  },
+  "ship_to": {
+    "name": "Benjamin Walton",
+    "address": "71364 Robin Terrace, Rodriguezport, AK 88291 US",
+    "phone": "+(609)231-4280",
+    "email": "iwilliamss@example.net",
+    "website": "https://www.martin-leonard.com/"
+  },
+  "line_items": [
+    {
+      "description": "Phone country identify.",
+      "quantity": "3.00",
+      "unit_price": "36.93",
+      "amount": "110.79"
+    },
+    {
+      "description": "Threat list.",
+      "quantity": "5.00",
+      "unit_price": "59.18",
+      "amount": "295.90"
+    },
+    {
+      "description": "Image detail.",
+      "quantity": "2.00",
+      "unit_price": "11.46",
+      "amount": "22.92"
+    },
+    {
+      "description": "Set election.",
+      "quantity": "5.00",
+      "unit_price": "29.54",
+      "amount": "147.70"
+    }
+  ],
+  "totals": {
+    "subtotal": "577.31",
+    "taxes": "",
+    "discount": "",
+    "total_amount": "606.07"
+  },
+  "notes": "Total in words: six hundred and six point zero seven",
+  "terms": ""
+}

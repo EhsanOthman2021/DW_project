@@ -1,0 +1,78 @@
+{
+  "invoice_number": "INVi24-39/636",
+  "invoice_date": "14-Jul-2008",
+  "due_date": "14-Jul-2008",
+
+  "vendor": {
+    "name": "Woods-Gibbs",
+    "address": "696 Thompson Forest, Ashleybury, AR 73994 US",
+    "email": "amanda25@example.org",
+    "website": null
+  },
+
+  "buyer": {
+    "name": "Matthew Bryant",
+    "address": "83350 Garrett Ranch Apt. 037, Calderonhaven, UT 61669 US",
+    "email": null,
+    "phone": null,
+    "website": "http://www.brown.org/"
+  },
+
+  "line_items": [
+    {
+      "description": "Society address.",
+      "quantity": 1.00,
+      "unit_price": 60.19,
+      "amount": 60.19
+    },
+    {
+      "description": "Likely we.",
+      "quantity": 4.00,
+      "unit_price": 97.96,
+      "amount": 301.84
+    },
+    {
+      "description": "Concern anyone.",
+      "quantity": 3.00,
+      "unit_price": 28.65,
+      "amount": 85.95
+    },
+    {
+      "description": "Age vote wind.",
+      "quantity": 3.00,
+      "unit_price": 70.32,
+      "amount": 210.96
+    },
+    {
+      "description": "Store skin man.",
+      "quantity": 6.00,
+      "unit_price": 69.64,
+      "amount": 417.84
+    }
+  ],
+
+  "totals": {
+    "subtotal": 1166.78,
+    "discount": 0.00,
+    "taxes": 12.76,
+    "total_amount": 1154.02,
+    "currency": "USD"
+  },
+
+  "bank_info": {
+    "bank_name": null,
+    "account_number": null,
+    "routing_number": null,
+    "address": null,
+    "city": null,
+    "state": null,
+    "zip": null,
+    "country": null,
+    "phone": null,
+    "email": null
+  },
+
+  "notes": null,
+
+  "terms": "Payment due: 14-Jul-2008"
+}

@@ -1,0 +1,56 @@
+{
+    "invoice_number": "INV63917375",
+    "invoice_date": "29-Aug-2004",
+    "due_date": "",
+    "vendor": {
+        "name": "Woods-Gibbs",
+        "address": "696 Thompson Forest, Ashleybury, AR 73994 US",
+        "email": "amanda25@example.org"
+    },
+    "buyer": {
+        "name": "Brooke Baldwin",
+        "address": "0901 Ward Prairie, Lake Brianfurt, TX 83758 US",
+        "email": "msetes@example.org",
+        "phone": "+1(277)671-7598",
+        "website": "http://orr.com/"
+    },
+    "line_items": [
+        {
+            "description": "Pm likely practice.",
+            "quantity": "6.00",
+            "unit_price": "56.02",
+            "amount": "336.12"
+        },
+        {
+            "description": "Federal.",
+            "quantity": "3.00",
+            "unit_price": "27.86",
+            "amount": "83.58"
+        },
+        {
+            "description": "Out with throw call.",
+            "quantity": "3.00",
+            "unit_price": "62.98",
+            "amount": "188.94"
+        }
+    ],
+    "totals": {
+        "subtotal": "608.64",
+        "discount": "",
+        "taxes": "",
+        "total_amount": "604.36"
+    },
+    "bank_info": {
+        "name": "",
+        "address": "",
+        "city": "",
+        "state": "",
+        "zip": "",
+        "country": "",
+        "branch_name": "",
+        "account_number": "",
+        "swift_code": ""
+    },
+    "notes": "",
+    "terms": ""
+}

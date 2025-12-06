@@ -1,0 +1,53 @@
+{
+  "invoice_number": "",
+  "invoice_date": "19-Nov-2010",
+  "due_date": "04-Oct-1996",
+  "vendor": {
+    "name": "Thompson and Sons",
+    "address": "16424 Timothy Mission, Markville, AK 58294 US",
+    "email": "melvindo@example.net",
+    "gstin": "12345670 00070007",
+    "website": "www.ThompsonandSons.org"
+  },
+  "buyer": {
+    "name": "Hannah Cabrera",
+    "address": "938 Brown Isle Apt. 858, Gregoryport, MD 27411 US",
+    "email": "williamstheresa@example.org",
+    "phone": "+(093)787-2495",
+    "website": "http://carpenter.com/"
+  },
+  "line_items": [
+    {
+      "description": "indeed view",
+      "quantity": "6.00",
+      "unit_price": "68.13",
+      "amount": ""
+    },
+    {
+      "description": "Possible point person",
+      "quantity": "2.00",
+      "unit_price": "72.59",
+      "amount": ""
+    }
+  ],
+  "totals": {
+    "subtotal": "523.96",
+    "discount": "10.69",
+    "taxes": "19.75",
+    "total_amount": "535.80",
+    "currency": "USD"
+  },
+  "bank_info": {
+    "bank_name": "State Bank of Europe",
+    "branch_name": "Raf CAMP",
+    "account_number": "14427096",
+    "swift_code": "SBININBB250",
+    "bank_address": "",
+    "bank_city": "",
+    "bank_state": "",
+    "bank_zip": "",
+    "bank_country": ""
+  },
+  "notes": "All payments to be made in cash. Contact us for queries on these quotations.",
+  "terms": "Payment terms include applicable discounts and VAT as listed."
+}

@@ -1,0 +1,54 @@
+{
+  "invoice_number": "INV64664304",
+  "invoice_date": "27-Mar-2018",
+  "due_date": "27-Jun-2006",
+
+  "vendor": {
+    "name": "Not specified",
+    "address": ""
+  },
+
+  "buyer": {
+    "name": "Not specified",
+    "address": "",
+    "email": "se7@example.org",
+    "phone": "",
+    "website": ""
+  },
+
+  "line_items": [
+    {
+      "description": "Area family or air",
+      "quantity": 5,
+      "unit_price": 38.27,
+      "amount": 191.35
+    },
+    {
+      "description": "Effort impact activity",
+      "quantity": 4,
+      "unit_price": 24.69,
+      "amount": 98.76
+    },
+    {
+      "description": "From himself democratic",
+      "quantity": 2,
+      "unit_price": 19.16,
+      "amount": 38.32
+    }
+  ],
+
+  "totals": {
+    "subtotal": 328.43,
+    "discount": -8.34,
+    "taxes": {
+      "VAT_6.45_percent": 21.20
+    },
+    "total_amount": 339.81,
+    "currency": "USD"
+  },
+
+  "bank_info": null,
+
+  "notes": "All payments to be made in cash. Contact us for queries on these quotations.",
+  "terms": "Payment within 8 days; 2.5% monthly interest on late invoices; include invoice number in payment notes."
+}

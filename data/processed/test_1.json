@@ -1,0 +1,62 @@
+{
+  "invoice_number": "NVRI-51725",
+  "invoice_date": "05-Jan-2020",
+  "due_date": null,
+
+  "vendor": {
+    "name": "Robinson-Carson",
+    "address": "28713 Hart Fort Suite 267, Stewarttown, MI 55458 US",
+    "email": null,
+    "website": null
+  },
+
+  "buyer": {
+    "name": "Barbara Anderson",
+    "address": "6202 Bailey Walk, Richardsmouth, IL 56419 US",
+    "email": "costajoshua@example.com",
+    "phone": "(345)741-8229",
+    "website": "http://www.brennan.net"
+  },
+
+  "ship_to": {
+    "name": "Not specified",
+    "address": "East Kathleen, MP 79793 US",
+    "email": "jeffery20@example.com",
+    "phone": "(979)361-1312",
+    "website": "https://mays.com/"
+  },
+
+  "line_items": [
+    {
+      "description": "Present response far.",
+      "quantity": 5,
+      "unit_price": 50.36,
+      "amount": 251.80
+    },
+    {
+      "description": "Energy while tell.",
+      "quantity": 6,
+      "unit_price": 16.61,
+      "amount": 99.66
+    },
+    {
+      "description": "Fill.",
+      "quantity": 4,
+      "unit_price": 52.25,
+      "amount": 209.00
+    }
+  ],
+
+  "totals": {
+    "subtotal": 560.46,
+    "discount": 0,
+    "taxes": null,
+    "total_amount": 570.33,
+    "currency": "USD"
+  },
+
+  "bank_info": null,
+
+  "notes": "Total in words: five hundred and seventy point three three",
+  "terms": null
+}

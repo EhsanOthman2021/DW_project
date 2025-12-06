@@ -1,0 +1,46 @@
+{
+  "invoice_number": "0612-094",
+  "invoice_date": "15-Sep-2002",
+  "due_date": "",
+  "vendor": {
+    "name": "Bailey Group",
+    "address": "233 Foster Gardens, Johnburgh, ID 41900 US",
+    "email": "paul73@example.com",
+    "phone": "",
+    "website": ""
+  },
+  "buyer": {
+    "name": "Amber Suarez",
+    "address": "602 Alicia Island Apt. 245, Lake Joshuafurt, HI 07962 US",
+    "email": "sonard@example.net",
+    "phone": "#(477)539-8631",
+    "website": "https://fstout.com/"
+  },
+  "line_items": [
+    {
+      "description": "Executive ago",
+      "quantity": "5.00",
+      "unit_price": "76.82",
+      "amount": "384.10"
+    },
+    {
+      "description": "Condition even no discuss",
+      "quantity": "100",
+      "unit_price": "40.50",
+      "amount": "4050"
+    }
+  ],
+  "totals": {
+    "subtotal": "424.60",
+    "discount": "",
+    "taxes": "21.97",
+    "total_amount": "431.71",
+    "currency": "EUR"
+  },
+  "bank_info": {
+    "bank_name": "Bank of America",
+    "account_number": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "notes": "This order is shipped through blue dart courier",
+  "terms": ""
+}

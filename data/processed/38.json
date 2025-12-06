@@ -1,0 +1,54 @@
+{
+  "invoice_number": "827-575",
+  "invoice_date": "31-Oct-2005",
+  "due_date": "",
+  "vendor": {
+    "name": "",
+    "address": "",
+    "email": "",
+    "phone": "",
+    "website": ""
+  },
+  "buyer": {
+    "name": "Wesley Silva",
+    "address": "49782 Cheryl Cliff Apt. 361, South Mark, PW 86028 US",
+    "email": "jerry@example.net",
+    "phone": "#(071)912-7452",
+    "website": "https://www-lambert.biz/"
+  },
+  "ship_to": {
+    "name": "Michelle Dillon",
+    "address": "41279 Thomas Trace, Youngtown, MO 64579 US",
+    "email": "amanda67@example.org",
+    "phone": "+(229)816-4209",
+    "website": "http://www-page.net/"
+  },
+  "line_items": [
+    {
+      "description": "Experience western response.",
+      "quantity": "5.00",
+      "unit_price": "80.16",
+      "amount": "400.80"
+    },
+    {
+      "description": "Firm bit growth.",
+      "quantity": "1.00",
+      "unit_price": "63.45",
+      "amount": "63.45"
+    }
+  ],
+  "totals": {
+    "subtotal": "1073303.25",
+    "discount": "0.00",
+    "taxes": "156495.88",
+    "total_amount": "1229799.13",
+    "currency": "USD"
+  },
+  "bank_info": {
+    "bank_name": "Bank of America",
+    "bank_address": "1000 N Market St, Pittsburgh, PA 15222 US",
+    "account_number": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "notes": "",
+  "terms": ""
+}

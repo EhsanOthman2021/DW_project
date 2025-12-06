@@ -1,0 +1,59 @@
+{
+  "invoice_number": "1480-718",
+  "invoice_date": "29-Mar-2019",
+  "due_date": "11-Jan-2021",
+
+  "vendor": {
+    "name": "Kirk, Murphy and Daniels",
+    "address": "",
+    "email": "",
+    "website": ""
+  },
+
+  "buyer": {
+    "name": "Amber Neal",
+    "address": "3176 Philip Crossroad Suite 183, Mikestad, MH 41454 US",
+    "phone": "+(619)205-1568",
+    "email": "chavezwilliam@example.net",
+    "website": "http://www.lane.biz/"
+  },
+
+  "ship_to": {
+    "name": "",
+    "address": "",
+    "phone": "",
+    "email": "",
+    "website": ""
+  },
+
+  "line_items": [
+    {
+      "description": "Democratic ready.",
+      "quantity": "1.00",
+      "unit_price": "80.25",
+      "amount": "80.25"
+    },
+    {
+      "description": "Personal full quite.",
+      "quantity": "2.00",
+      "unit_price": "82.60",
+      "amount": "165.20"
+    },
+    {
+      "description": "Very inside part.",
+      "quantity": "2.00",
+      "unit_price": "96.21",
+      "amount": "192.42"
+    }
+  ],
+
+  "totals": {
+    "subtotal": "435.75",
+    "taxes": "19.07",
+    "discount": "",
+    "total_amount": "435.75"
+  },
+
+  "notes": "Total in words: four hundred and thirty-five point seven five",
+  "terms": "All payments to be made in cash. Contact us for queries on these quotations."
+}

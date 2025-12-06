@@ -1,0 +1,65 @@
+{
+  "invoice_number": "INV/87-40/070",
+  "invoice_date": "21-May-2021",
+  "due_date": "17-Jun-1997",
+  "vendor": {
+    "name": "White and Sons",
+    "address": "",
+    "email": "cpetersen@example.com",
+    "phone": "",
+    "website": "www.WhiteandSons.org"
+  },
+  "buyer": {
+    "name": "Joseph Kaufman",
+    "address": "3166 Chad Underpass Suite 961, Guzmanside, ID 37829 US",
+    "email": "bradley79@example.net",
+    "phone": "+(508)118-3312",
+    "website": "http://lee-moyer.info/"
+  },
+  "line_items": [
+    {
+      "description": "Anyone best",
+      "quantity": "4.00",
+      "unit_price": "51.80",
+      "amount": ""
+    },
+    {
+      "description": "Tough money south",
+      "quantity": "3.00",
+      "unit_price": "69.64",
+      "amount": ""
+    },
+    {
+      "description": "Dinner evidence his.",
+      "quantity": "1.00",
+      "unit_price": "60.80",
+      "amount": ""
+    },
+    {
+      "description": "Admit without true.",
+      "quantity": "4.00",
+      "unit_price": "32.58",
+      "amount": ""
+    },
+    {
+      "description": "Huge selenist general",
+      "quantity": "5.00",
+      "unit_price": "50.69",
+      "amount": ""
+    }
+  ],
+  "totals": {
+    "subtotal": "883.15",
+    "discount": "",
+    "taxes": "79.48",
+    "total_amount": "886.97",
+    "currency": "USD"
+  },
+  "bank_info": {
+    "bank_name": "Bank of America",
+    "account_number": "123456789",
+    "routing_number": "987654321"
+  },
+  "notes": "Payment due within 30 days of invoice date.",
+  "terms": "Net 30"
+}

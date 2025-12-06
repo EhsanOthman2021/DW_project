@@ -1,0 +1,68 @@
+{
+  "invoice_number": "5875-863",
+  "invoice_date": "28-Oct-2001",
+  "due_date": "03-Mar-2018",
+  "vendor": {
+    "name": "Berg, Ward and Wright",
+    "address": "5776 Whitney Meadow, West Adriennebury, ID 40049 US",
+    "email": null,
+    "phone": null,
+    "website": null
+  },
+  "buyer": {
+    "name": "William Montoya",
+    "address": "68833 Melissa Mount, South Daniellestad, DC 30815 US",
+    "email": "leonardnelson@example.org",
+    "phone": "+(485)835-6356",
+    "website": "http://ward.net/"
+  },
+  "line_items": [
+    {
+      "description": "Thing hand",
+      "quantity": 200,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Repo bor",
+      "quantity": 100,
+      "unit_price": 68.78,
+      "amount": 6878.00
+    },
+    {
+      "description": "Te ee",
+      "quantity": 3,
+      "unit_price": 76.73,
+      "amount": 230.19
+    },
+    {
+      "description": "Copy oa",
+      "quantity": 3,
+      "unit_price": 97.08,
+      "amount": 291.24
+    },
+    {
+      "description": "Fi or",
+      "quantity": 600,
+      "unit_price": 70.31,
+      "amount": 42186.00
+    }
+  ],
+  "totals": {
+    "subtotal": 1050.86,
+    "discount": 0,
+    "taxes": {
+      "VAT_6.01_percent": 63.11
+    },
+    "total_amount": 1094.00,
+    "currency": "USD"
+  },
+  "bank_info": {
+    "bank_name": null,
+    "account_number": null,
+    "routing_number": null,
+    "address": null
+  },
+  "notes": null,
+  "terms": null
+}

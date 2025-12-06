@@ -1,0 +1,60 @@
+{
+  "invoice_number": "INV70773681",
+  "invoice_date": "04-Jan-2023",
+  "due_date": "04-Jun-2013",
+  "vendor": {
+    "name": "Richardson-Davis",
+    "address": "6479 Smith Causeway, East Camerontown, AS 38212 US",
+    "email": "",
+    "phone": "",
+    "website": ""
+  },
+  "buyer": {
+    "name": "Cathy Nelson",
+    "address": "9187 Adams Flats Suite 868, East Josephchester, FL 26624 US",
+    "email": "campbelljames@example.net",
+    "phone": "+(867)907-3993",
+    "website": "http://www.singh.com/"
+  },
+  "line_items": [
+    {
+      "description": "Several brother.",
+      "quantity": "400",
+      "unit_price": "91.48",
+      "amount": "365.92"
+    },
+    {
+      "description": "Costaiterence",
+      "quantity": "6.00",
+      "unit_price": "35.48",
+      "amount": "214.08"
+    },
+    {
+      "description": "She wet",
+      "quantity": "400",
+      "unit_price": "48.50",
+      "amount": "794.00"
+    },
+    {
+      "description": "New PM provide.",
+      "quantity": "500",
+      "unit_price": "50.90",
+      "amount": "25.45"
+    }
+  ],
+  "totals": {
+    "subtotal": "796.45",
+    "discount": "16.49",
+    "taxes": "51.47",
+    "total_amount": "826.26",
+    "currency": "USD"
+  },
+  "bank_info": {
+    "bank_name": "State Bank of California",
+    "branch_name": "Raf CAMP",
+    "account_number": "16085320",
+    "swift_code": "SBININBB250"
+  },
+  "notes": "All payments to be made in cash. Contact us for queries on these quotations.",
+  "terms": "1. Please send payment within 8 days of receiving this invoice. There will be a 2.5% interest charge per month on late invoices. 2. Please include the Invoice number in your payment notes."
+}

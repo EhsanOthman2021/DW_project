@@ -1,0 +1,57 @@
+{
+  "invoice_number": "2Y2M7d-846",
+  "invoice_date": "23-Feb-2005",
+  "due_date": "",
+  "vendor": {
+    "name": "",
+    "address": "66636 Hernandez Loaf Suite 714, Lisafurt, LA 33980 US",
+    "email": "",
+    "phone": "",
+    "website": ""
+  },
+  "buyer": {
+    "name": "Kelly Keller",
+    "address": "989 Laura Walks Suite 199, Lake Tracy, GU 67786 US",
+    "email": "patricks1@example.org",
+    "phone": "+(358)481-6807",
+    "website": "https://nichols-hernandez.biz/"
+  },
+  "line_items": [
+    {
+      "description": "Career theory.",
+      "quantity": "5.00",
+      "unit_price": "8.40",
+      "amount": "42.00"
+    },
+    {
+      "description": "Major expect statement.",
+      "quantity": "3.00",
+      "unit_price": "25.62",
+      "amount": "76.86"
+    },
+    {
+      "description": "By wife perhaps.",
+      "quantity": "6.00",
+      "unit_price": "23.15",
+      "amount": "138.90"
+    }
+  ],
+  "totals": {
+    "subtotal": "",
+    "discount": "",
+    "taxes": "",
+    "total_amount": "266.63",
+    "currency": "EUR"
+  },
+  "bank_info": {
+    "bank_name": "",
+    "bank_address": "",
+    "account_number": "",
+    "routing_number": "",
+    "swift_code": "",
+    "iban": "",
+    "country": ""
+  },
+  "notes": "All payments to be made in cash. Contact us for queries on these quotations.",
+  "terms": ""
+}

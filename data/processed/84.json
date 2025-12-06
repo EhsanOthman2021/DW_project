@@ -1,0 +1,62 @@
+{
+  "invoice_number": "6Y6M6d-599",
+  "invoice_date": "31-Jan-2000",
+  "due_date": "30-Aug-1994",
+
+  "vendor": {
+    "name": "Berg, Ward and Wright",
+    "address": "5776 Whitney Meadow, West Adriennebury, ID 40049 US",
+    "email": "johnterry@example.org",
+    "website": "http://baker-martin.com/"
+  },
+
+  "buyer": {
+    "name": "Unknown (buyer address present but name not explicitly stated)",
+    "address": "52384 Ramos Forks, Bakerberg, OK 84132 US",
+    "phone": "+(493)474-4388",
+    "email": null,
+    "website": null
+  },
+
+  "line_items": [
+    {
+      "description": "Item 1",
+      "quantity": 2.00,
+      "unit_price": 78.08,
+      "amount": 156.16
+    },
+    {
+      "description": "Item 2",
+      "quantity": 100.00,
+      "unit_price": 83.53,
+      "amount": 8353.00
+    },
+    {
+      "description": "Item 3",
+      "quantity": 3.00,
+      "unit_price": 34.58,
+      "amount": 103.74
+    }
+  ],
+
+  "totals": {
+    "subtotal": 342.40,
+    "discount": 0.00,
+    "taxes": {
+      "VAT_4.22_percent": 14.43
+    },
+    "total_amount": 339.92,
+    "currency": "USD"
+  },
+
+  "bank_info": {
+    "bank_name": "Bank of America",
+    "bank_address": "10000 W. Adams Blvd., San Diego, CA 92123 US",
+    "account_number": "123456789",
+    "routing_number": "021000021",
+    "country": "US"
+  },
+
+  "notes": "Payment terms: Net 30. Payment method: Bank transfer.",
+  "terms": "Net 30"
+}

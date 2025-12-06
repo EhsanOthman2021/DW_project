@@ -1,0 +1,65 @@
+[2025-12-06 12:00:48] [INFO] - Starting dataset extraction to disk (1% sample)...
+[2025-12-06 12:00:48] [INFO] - PNG output directory: data/raw/png
+[2025-12-06 12:00:48] [INFO] - PDF output directory: data/raw/pdfs
+[2025-12-06 12:00:48] [INFO] - Loading dataset: mathieu1256/FATURA2-invoices (train split)
+[2025-12-06 12:00:58] [INFO] - Dataset loaded successfully with 8,600 samples
+[2025-12-06 12:00:58] [INFO] - Sampling 1% → 86 images
+[2025-12-06 12:00:58] [INFO] - Saving sampled images as PNG files...
+[2025-12-06 12:01:01] [INFO] - Finished saving 86 PNG images.
+[2025-12-06 12:01:01] [INFO] - Shuffling and splitting into 50% PNG / 50% PDF sets...
+[2025-12-06 12:01:01] [INFO] - Images for PDF conversion: 31
+[2025-12-06 12:01:01] [INFO] - Images to remain as PNG:    32
+[2025-12-06 12:01:01] [INFO] - Converting first 50% of images to PDF...
+[2025-12-06 12:01:01] [ERROR] - Failed to convert 74.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/74.pdf'
+[2025-12-06 12:01:01] [ERROR] - Failed to convert 45.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/45.pdf'
+[2025-12-06 12:01:01] [ERROR] - Failed to convert 79.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/79.pdf'
+[2025-12-06 12:01:01] [ERROR] - Failed to convert 85.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/85.pdf'
+[2025-12-06 12:01:01] [ERROR] - Failed to convert 34.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/34.pdf'
+[2025-12-06 12:01:01] [ERROR] - Failed to convert 83.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/83.pdf'
+[2025-12-06 12:01:01] [ERROR] - Failed to convert 23.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/23.pdf'
+[2025-12-06 12:01:01] [ERROR] - Failed to convert 70.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/70.pdf'
+[2025-12-06 12:01:01] [ERROR] - Failed to convert 68.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/68.pdf'
+[2025-12-06 12:01:01] [ERROR] - Failed to convert 54.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/54.pdf'
+[2025-12-06 12:01:01] [ERROR] - Failed to convert 72.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/72.pdf'
+[2025-12-06 12:01:01] [ERROR] - Failed to convert 44.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/44.pdf'
+[2025-12-06 12:01:01] [ERROR] - Failed to convert 57.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/57.pdf'
+[2025-12-06 12:01:02] [ERROR] - Failed to convert 30.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/30.pdf'
+[2025-12-06 12:01:02] [ERROR] - Failed to convert 26.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/26.pdf'
+[2025-12-06 12:01:02] [ERROR] - Failed to convert 66.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/66.pdf'
+[2025-12-06 12:01:02] [ERROR] - Failed to convert 59.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/59.pdf'
+[2025-12-06 12:01:02] [ERROR] - Failed to convert 81.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/81.pdf'
+[2025-12-06 12:01:02] [ERROR] - Failed to convert 38.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/38.pdf'
+[2025-12-06 12:01:02] [ERROR] - Failed to convert 80.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/80.pdf'
+[2025-12-06 12:01:02] [ERROR] - Failed to convert 60.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/60.pdf'
+[2025-12-06 12:01:02] [ERROR] - Failed to convert 61.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/61.pdf'
+[2025-12-06 12:01:02] [ERROR] - Failed to convert 40.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/40.pdf'
+[2025-12-06 12:01:02] [ERROR] - Failed to convert 67.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/67.pdf'
+[2025-12-06 12:01:02] [ERROR] - Failed to convert 73.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/73.pdf'
+[2025-12-06 12:01:02] [ERROR] - Failed to convert 77.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/77.pdf'
+[2025-12-06 12:01:02] [ERROR] - Failed to convert 51.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/51.pdf'
+[2025-12-06 12:01:02] [ERROR] - Failed to convert 53.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/53.pdf'
+[2025-12-06 12:01:02] [ERROR] - Failed to convert 84.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/84.pdf'
+[2025-12-06 12:01:02] [ERROR] - Failed to convert 56.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/56.pdf'
+[2025-12-06 12:01:02] [ERROR] - Failed to convert 78.png to PDF: [Errno 2] No such file or directory: 'data/raw/pdfs/78.pdf'
+[2025-12-06 12:01:02] [INFO] - PDF conversion completed.
+[2025-12-06 12:01:02] [INFO] - Processing complete!
+[2025-12-06 12:01:02] [INFO] - PDF output folder: data/raw/pdfs
+[2025-12-06 12:01:02] [INFO] - Remaining PNG files: 63
+[2025-12-06 12:01:02] [INFO] - Dataset saved successfully to disk.
+[2025-12-06 12:03:27] [INFO] - Starting dataset extraction to disk (1% sample)...
+[2025-12-06 12:03:27] [INFO] - PNG output directory: data/raw/png
+[2025-12-06 12:03:27] [INFO] - PDF output directory: data/raw/pdfs
+[2025-12-06 12:03:27] [INFO] - Loading dataset: mathieu1256/FATURA2-invoices (train split)
+[2025-12-06 12:03:34] [INFO] - Dataset loaded successfully with 8,600 samples
+[2025-12-06 12:03:34] [INFO] - Sampling 1% → 86 images
+[2025-12-06 12:03:34] [INFO] - Saving sampled images as PNG files...
+[2025-12-06 12:03:36] [INFO] - Finished saving 86 PNG images.
+[2025-12-06 12:03:36] [INFO] - Shuffling and splitting into 50% PNG / 50% PDF sets...
+[2025-12-06 12:03:36] [INFO] - Images for PDF conversion: 43
+[2025-12-06 12:03:36] [INFO] - Images to remain as PNG:    43
+[2025-12-06 12:03:36] [INFO] - Converting first 50% of images to PDF...
+[2025-12-06 12:03:37] [INFO] - PDF conversion completed.
+[2025-12-06 12:03:37] [INFO] - Processing complete!
+[2025-12-06 12:03:37] [INFO] - PDF output folder: data/raw/pdfs
+[2025-12-06 12:03:37] [INFO] - Remaining PNG files: 43
+[2025-12-06 12:03:37] [INFO] - Dataset saved successfully to disk.

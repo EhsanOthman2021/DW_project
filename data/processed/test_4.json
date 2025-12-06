@@ -1,0 +1,76 @@
+{
+  "invoice_number": "1966-282",
+  "invoice_date": "09-Feb-2000",
+  "due_date": "19-Feb-2000",
+
+  "vendor": {
+    "name": "Robinson-Carson",
+    "gstin": "37LTOQASACEIZS",
+    "address": "28713 Hart Fort Suite 267, Stewarttown, MI 55458 US",
+    "email": null,
+    "phone": null,
+    "website": null
+  },
+
+  "buyer": {
+    "name": "Benjamin Walton",
+    "address": "71364 Robin Terrace, Rodriguezport, AK 88291 US",
+    "email": "iwilliams@example.net",
+    "phone": "(609)231-4280",
+    "website": "https://www.martin-leonard.com/"
+  },
+
+  "ship_to": {
+    "name": "Morgan Walker",
+    "address": "301 Gutierrez Trafficway, North Arielhaven, TN 26123 US",
+    "phone": "(702)729-3859",
+    "website": "http://hill.com/"
+  },
+
+  "line_items": [
+    {
+      "description": "Phone country identify.",
+      "quantity": 3.00,
+      "unit_price": 36.93,
+      "amount": 110.79
+    },
+    {
+      "description": "Threat list.",
+      "quantity": 5.00,
+      "unit_price": 59.18,
+      "amount": 295.90
+    },
+    {
+      "description": "Image detail",
+      "quantity": 2.00,
+      "unit_price": 11.46,
+      "amount": 22.92
+    },
+    {
+      "description": "Set election.",
+      "quantity": 5.00,
+      "unit_price": 29.54,
+      "amount": 147.70
+    }
+  ],
+
+  "totals": {
+    "subtotal": 577.31,
+    "discount": 0,
+    "taxes": 10.00,
+    "total_amount": 616.07,
+    "currency": "USD"
+  },
+
+  "bank_info": {
+    "bank_name": "First National Bank",
+    "bank_address": "1234 Main Street, Anytown, USA",
+    "account_number": "123456789",
+    "routing_number": "123456789",
+    "swift_bic": "FNBUS123",
+    "iban": "US123456789012345678901"
+  },
+
+  "notes": "Total in words: six hundred and six point zero seven.",
+  "terms": "Net 30"
+}

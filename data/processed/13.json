@@ -1,0 +1,64 @@
+{
+  "invoice_number": "INV/18-92/169",
+  "invoice_date": "",
+  "due_date": "2018-09-15",
+  "vendor": {
+    "name": "Navarro, Ford and Bryan",
+    "address": "",
+    "email": "rclark@example.org",
+    "gstin": "09AABCS142961ZS"
+  },
+  "buyer": {
+    "name": "Holly Waters",
+    "address": "465 Sanchez Manor Apt. 434, Johnton, FL 44217 US",
+    "email": "shunter@example.org",
+    "phone": "+(197)671-4187",
+    "website": "https://moreno.info/"
+  },
+  "line_items": [
+    {
+      "description": "",
+      "quantity": "",
+      "unit_price": "",
+      "amount": "93.93"
+    },
+    {
+      "description": "jonth no.",
+      "quantity": "",
+      "unit_price": "",
+      "amount": "58.23"
+    },
+    {
+      "description": "Name material much",
+      "quantity": "",
+      "unit_price": "",
+      "amount": "36.62"
+    },
+    {
+      "description": "They both American.",
+      "quantity": "",
+      "unit_price": "",
+      "amount": "39.51"
+    }
+  ],
+  "totals": {
+    "subtotal": "",
+    "discount": "",
+    "taxes": "",
+    "total_amount": "963.47",
+    "currency": "USD"
+  },
+  "bank_info": {
+    "bank_name": "",
+    "bank_address": "",
+    "account_number": "",
+    "routing_number": "",
+    "swift_code": "",
+    "city": "",
+    "state": "",
+    "zip": "",
+    "country": ""
+  },
+  "notes": "This order is shipped through blue dart courier",
+  "terms": ""
+}

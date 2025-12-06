@@ -1,0 +1,57 @@
+{
+  "invoice_number": null,
+  "invoice_date": "18-Apr-2019",
+  "due_date": "06-Dec-1997",
+  "vendor": {
+    "name": "Thompson and Sons",
+    "address": "16424 Timothy Mission, Markville, AK 58294 US",
+    "email": "melvindo@example.net",
+    "website": "www.ThompsonandSons.org",
+    "gstin": "12345670 00070007"
+  },
+  "buyer": {
+    "name": "Jasmine Davis",
+    "address": "911 Wallace Camp Suite 905, New Lindahaven, PW 51031 US",
+    "email": "vbarnes@example.org",
+    "phone": "+(810)203-4116",
+    "website": "https://ortiz.com/",
+    "gstin": "OG@AAMFCO376K124"
+  },
+  "line_items": [
+    {
+      "description": "Attack water",
+      "quantity": 1.00,
+      "unit_price": null,
+      "amount": null
+    },
+    {
+      "description": "Stuff choice",
+      "quantity": 4.00,
+      "unit_price": 398.38,
+      "amount": 1593.52
+    },
+    {
+      "description": "Offer today over",
+      "quantity": 6.00,
+      "unit_price": 313.30,
+      "amount": 1879.80
+    }
+  ],
+  "totals": {
+    "subtotal": 592.65,
+    "discount": 22.64,
+    "taxes": {
+      "VAT_4.33_percent": 25.66
+    },
+    "total_amount": 590.93,
+    "currency": "EUR"
+  },
+  "bank_info": {
+    "bank_name": "State Bank of Europe",
+    "branch_name": "Raf CAMP",
+    "account_number": "18582412",
+    "swift_code": "SBININBB250"
+  },
+  "notes": "Thank you for choosing us!",
+  "terms": null
+}

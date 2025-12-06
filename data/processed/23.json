@@ -1,0 +1,59 @@
+{
+  "invoice_number": "",
+  "invoice_date": "25-Oct-2001",
+  "due_date": "17-Oct-1999",
+  "vendor": {
+    "name": "Huff-Bryan",
+    "address": "2180 Michael Ridges Apt. 385, Port Lindsey, MP 98258 US",
+    "email": "",
+    "phone": "",
+    "website": ""
+  },
+  "buyer": {
+    "name": "James",
+    "address": "2 Eest Atin Way Suite 2, Norbury, SD 50618 US",
+    "email": "",
+    "phone": "",
+    "website": ""
+  },
+  "line_items": [
+    {
+      "description": "Attorney question standard most.",
+      "quantity": "200",
+      "unit_price": "",
+      "amount": ""
+    },
+    {
+      "description": "",
+      "quantity": "200",
+      "unit_price": "",
+      "amount": ""
+    },
+    {
+      "description": "",
+      "quantity": "200",
+      "unit_price": "",
+      "amount": ""
+    }
+  ],
+  "totals": {
+    "subtotal": "938.12",
+    "discount": "42.03",
+    "taxes": "",
+    "total_amount": "",
+    "currency": "$"
+  },
+  "bank_info": {
+    "bank_name": "",
+    "bank_address": "",
+    "account_number": "",
+    "routing_number": "",
+    "swift_code": "",
+    "city": "",
+    "state": "",
+    "zip": "",
+    "country": ""
+  },
+  "notes": "Thank you for choosing us!",
+  "terms": ""
+}

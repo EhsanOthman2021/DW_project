@@ -1,0 +1,63 @@
+{
+  "invoice_number": "INV/55-79/951",
+  "invoice_date": "19-Apr-2020",
+  "due_date": null,
+  "vendor": {
+    "name": "Bailey Group",
+    "address": "233 Foster Gardens, Johnburgh, ID 41900 US",
+    "email": "paul73@example.com",
+    "phone": null,
+    "website": null
+  },
+  "buyer": {
+    "name": "Jason Hurst",
+    "address": "63567 Janice Trace Apt. 298, West Michaelbury, GA 26918 US",
+    "email": "hthomas@example.org",
+    "phone": "+(773)807-3019",
+    "website": "https://ramirez.com/"
+  },
+  "line_items": [
+    {
+      "description": "Later abe ether wong",
+      "quantity": 100,
+      "unit_price": 2.11,
+      "amount": 2.11
+    },
+    {
+      "description": "Stand expect",
+      "quantity": 4,
+      "unit_price": 45.54,
+      "amount": 182.16
+    },
+    {
+      "description": "Particularly area",
+      "quantity": 3,
+      "unit_price": 29.5,
+      "amount": 88.5
+    },
+    {
+      "description": "Couple open population",
+      "quantity": 6,
+      "unit_price": 47.6,
+      "amount": 285.6
+    },
+    {
+      "description": "Process participant paper",
+      "quantity": 4,
+      "unit_price": 70.44,
+      "amount": 281.76
+    }
+  ],
+  "totals": {
+    "subtotal": 764.84,
+    "discount": 0,
+    "taxes": {
+      "VAT_6.24_percent": 32.44
+    },
+    "total_amount": 762.86,
+    "currency": "USD"
+  },
+  "bank_info": null,
+  "notes": "This order is shipped through blue dart courier",
+  "terms": null
+}

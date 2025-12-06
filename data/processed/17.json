@@ -1,0 +1,65 @@
+{
+  "invoice_number": "INV94276954",
+  "invoice_date": "17-Jul-2011",
+  "due_date": "26-Jan-1995",
+  "vendor": {
+    "name": "",
+    "address": "19021 Christopher Estate, South Williammouth, NH 22397 US",
+    "email": "natalie66@example.org",
+    "phone": "+(313)514-8839",
+    "website": "sivera.com"
+  },
+  "buyer": {
+    "name": "Christopher Rollins",
+    "address": "33383 Beard Way, Lake Gregoryfurt, WI 60269 US",
+    "email": "",
+    "phone": "",
+    "website": ""
+  },
+  "line_items": [
+    {
+      "description": "Enjoy decision true.",
+      "quantity": "6.00",
+      "unit_price": "52.98",
+      "amount": "317.88"
+    },
+    {
+      "description": "Else evening leave.",
+      "quantity": "3.00",
+      "unit_price": "96.35",
+      "amount": "289.05"
+    },
+    {
+      "description": "Quality radio key.",
+      "quantity": "1.00",
+      "unit_price": "60.89",
+      "amount": "60.89"
+    },
+    {
+      "description": "Trade from who.",
+      "quantity": "5.00",
+      "unit_price": "26.13",
+      "amount": "130.65"
+    }
+  ],
+  "totals": {
+    "subtotal": "798.47",
+    "discount": "24.51",
+    "taxes": "42.39",
+    "total_amount": "816.35",
+    "currency": "USD"
+  },
+  "bank_info": {
+    "bank_name": "Si ivera.com",
+    "bank_address": "10000 S. Williammouth, NH 22397 US",
+    "bank_city": "South Williammouth",
+    "bank_state": "NH",
+    "bank_zip": "22397",
+    "bank_country": "US",
+    "account_number": "123456789",
+    "routing_number": "110000000",
+    "swift_bic": "SIVAVR"
+  },
+  "notes": "Total payment due in 14 days. Please make sure to check the bank details before making any payment.",
+  "terms": "Will be charged if payment is not made within the due date."
+}

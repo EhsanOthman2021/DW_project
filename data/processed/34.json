@@ -1,0 +1,60 @@
+{
+  "invoice_number": "",
+  "invoice_date": "23-Apr-2016",
+  "due_date": "23-Apr-2016",
+  "vendor": {
+    "name": "",
+    "address": "86143 Ruth Isle Apt. 608, Ashleyshire, TN 12593 US",
+    "email": "",
+    "phone": "",
+    "website": ""
+  },
+  "buyer": {
+    "name": "Jill R",
+    "address": "8880 Tony Mountains, Port Michelle, NV 94341 US",
+    "email": "rtyler@example.com",
+    "phone": "+(865)734-7071",
+    "website": "http://www.anderson-hines.com/"
+  },
+  "line_items": [
+    {
+      "description": "Interest involve environment.",
+      "quantity": "3.00",
+      "unit_price": "26.82",
+      "amount": ""
+    },
+    {
+      "description": "Card site",
+      "quantity": "6.00",
+      "unit_price": "301.23",
+      "amount": ""
+    },
+    {
+      "description": "Air measure",
+      "quantity": "6.00",
+      "unit_price": "80.50",
+      "amount": ""
+    },
+    {
+      "description": "Feather resource career.",
+      "quantity": "1.00",
+      "unit_price": "38.59",
+      "amount": ""
+    }
+  ],
+  "totals": {
+    "subtotal": "844.43",
+    "discount": "",
+    "taxes": "47.20",
+    "total_amount": "860.55",
+    "currency": "EUR"
+  },
+  "bank_info": {
+    "bank_name": "State Bank of England",
+    "branch_name": "Raf CAMP",
+    "account_number": "16243653",
+    "swift_code": "SBININBB250"
+  },
+  "notes": "This invoice is for the purchase of 1000 units of the product \"Interest Involve Environment\" from the vendor. Payment is due by 23-Apr-2016.",
+  "terms": "Payment terms: Net 30. Payment due date: 23-Apr-2016."
+}

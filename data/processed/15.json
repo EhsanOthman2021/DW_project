@@ -1,0 +1,68 @@
+{
+  "invoice_number": "123456789",
+  "invoice_date": "26-Nov-1998",
+  "due_date": "26-Dec-1998",
+  "vendor": {
+    "name": "Woods-Gibbs",
+    "address": "696 Thompson Forest Involoe oumber, SYOMed-O23; Ashleybury, AR 73994 US",
+    "email": "amanda25@example.org",
+    "phone": "(615)018-4911",
+    "website": "http://williams.com/"
+  },
+  "buyer": {
+    "name": "Thomas Sanchez",
+    "address": "24300 Brown Rest, South Victoriahaven, MI 05193 US",
+    "email": "daniel28@example.org",
+    "phone": "+(615)018-4911",
+    "website": "http://williams.com/"
+  },
+  "line_items": [
+    {
+      "description": "House lose use.",
+      "quantity": "1.00",
+      "unit_price": "57.21",
+      "amount": "57.21"
+    },
+    {
+      "description": "Debate age age.",
+      "quantity": "5.00",
+      "unit_price": "84.19",
+      "amount": "420.95"
+    },
+    {
+      "description": "To share some what.",
+      "quantity": "6.00",
+      "unit_price": "12.83",
+      "amount": "76.98"
+    },
+    {
+      "description": "Stop feeling gas.",
+      "quantity": "2.00",
+      "unit_price": "76.30",
+      "amount": "152.60"
+    },
+    {
+      "description": "Decide those.",
+      "quantity": "5.00",
+      "unit_price": "80.24",
+      "amount": "401.20"
+    }
+  ],
+  "totals": {
+    "subtotal": "1108.94",
+    "discount": "1.00%",
+    "taxes": "1.00%",
+    "total_amount": "1115.27",
+    "currency": "EUR"
+  },
+  "bank_info": {
+    "account_number": "123456789",
+    "bank_name": "Woods-Gibbs",
+    "bank_address": "696 Thompson Forest Involoe oumber, SYOMed-O23; Ashleybury, AR 73994 US",
+    "email": "amanda25@example.org",
+    "phone": "(615)018-4911",
+    "website": "http://williams.com/"
+  },
+  "notes": "This invoice is for the purchase of goods listed above. Please make payment within 30 days of the invoice date. Thank you for your business!",
+  "terms": "Payment terms: 30 days"
+}

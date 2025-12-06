@@ -1,0 +1,60 @@
+{
+  "invoice_number": "INV/25-00/951",
+  "invoice_date": "10-Aug-2008",
+  "due_date": "10-Sep-2008",
+
+  "vendor": {
+    "name": "King, Richards and Roy",
+    "address": "1234 Main Street, Port Phillip, FM 76575 US",
+    "email": "smithjeffrey@example.net",
+    "phone": "(140)172-5002",
+    "website": "https://hall.com/"
+  },
+
+  "buyer": {
+    "name": "Margaret Moyer",
+    "address": "4056 Peter Avenue, Port Phillip, FM 76575 US",
+    "email": "johnochoa@example.org",
+    "phone": "(140)172-5002",
+    "website": "https://hall.com/"
+  },
+
+  "line_items": [
+    {
+      "description": "Nearly term network.",
+      "quantity": 5,
+      "unit_price": 32.18,
+      "amount": 160.90
+    },
+    {
+      "description": "Drug they most.",
+      "quantity": 6,
+      "unit_price": 35.34,
+      "amount": 212.04
+    },
+    {
+      "description": "Pass life.",
+      "quantity": 1,
+      "unit_price": 25.59,
+      "amount": 25.59
+    }
+  ],
+
+  "totals": {
+    "subtotal": 408.37,
+    "discount": "10% applied",
+    "tax": "10% applied",
+    "total_amount": 408.37,
+    "status": "Paid 100%",
+    "currency": "USD"
+  },
+
+  "bank_info": {
+    "bank_name": "Bank of America",
+    "account_number": "123456789",
+    "routing_number": "987654321"
+  },
+
+  "notes": "Total payment due in 14 days.",
+  "terms": "Net 14"
+}

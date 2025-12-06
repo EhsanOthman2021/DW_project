@@ -1,0 +1,57 @@
+{
+  "invoice_number": "INVI05-63/473",
+  "invoice_date": "12-Nov-2013",
+  "due_date": "18-Jan-2000",
+  "vendor": {
+    "name": "Brooks LLC",
+    "address": "9950 Santos Squares, Garzafurt, MH 31937 US",
+    "email": "ospencer@example.com",
+    "phone": null,
+    "website": "www.BrooksLLC.com"
+  },
+  "buyer": {
+    "name": "Laura Adkins",
+    "address": "6097 Krystal Skyway Suite 977, East Christophertown, SC 91004 US",
+    "email": "briannad4@example.org",
+    "phone": "+(208)907-1981",
+    "website": "http://www.kerr-patton.com!"
+  },
+  "line_items": [
+    {
+      "description": "Feel night trp.",
+      "quantity": 1.00,
+      "unit_price": 41.54,
+      "amount": 41.54
+    },
+    {
+      "description": "Great claim try.",
+      "quantity": 3.00,
+      "unit_price": 36.56,
+      "amount": 109.68
+    },
+    {
+      "description": "Respond indeed.",
+      "quantity": 1.00,
+      "unit_price": 66.69,
+      "amount": 66.69
+    }
+  ],
+  "totals": {
+    "subtotal": 217.91,
+    "discount": 0.00,
+    "taxes": {
+      "GST_9_percent": 19.64
+    },
+    "balance_due": 26.66,
+    "total_amount": 237.55,
+    "currency": "USD"
+  },
+  "bank_info": {
+    "bank_name": "Central Bank of California",
+    "branch_name": "Raf CAMP.",
+    "account_number": "11110838",
+    "swift_code": "SBININBB250"
+  },
+  "notes": "Total payment due in 14 days.",
+  "terms": "Payment due in 14 days."
+}

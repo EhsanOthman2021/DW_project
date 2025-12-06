@@ -1,0 +1,63 @@
+{
+  "invoice_number": "SY4M9d-264",
+  "invoice_date": "29-Sep-2012",
+  "due_date": "04-Apr-2003",
+  "vendor": {
+    "name": "Yoder LLC",
+    "address": "010 Jotirey Glens, Port Toddport, OC 16594 US",
+    "gstin": "GSTIN4321AAD22"
+  },
+  "buyer": {
+    "name": "Not specified",
+    "address": "East Mariah, DE 11741 US",
+    "email": "sabrina92@example.org",
+    "phone": "+(798)014-6137",
+    "website": "https://young.com/"
+  },
+  "line_items": [
+    {
+      "description": "Provide picture particular",
+      "quantity": 4.0,
+      "unit_price": 69.69,
+      "amount": 278.76
+    },
+    {
+      "description": "What alone",
+      "quantity": 3.0,
+      "unit_price": 45.93,
+      "amount": 137.79
+    },
+    {
+      "description": "Sea car word",
+      "quantity": 2.0,
+      "unit_price": 88.30,
+      "amount": 176.60
+    },
+    {
+      "description": "Keep song citizen",
+      "quantity": 2.0,
+      "unit_price": 49.96,
+      "amount": 99.92
+    },
+    {
+      "description": "Hotel time effect",
+      "quantity": 5.0,
+      "unit_price": 37.97,
+      "amount": 189.85
+    }
+  ],
+  "totals": {
+    "subtotal": 822.92,
+    "discount": 0.00,
+    "taxes": 0.00,
+    "total_amount": 822.92,
+    "currency": "USD"
+  },
+  "bank_info": {
+    "bank_name": "Bank of America",
+    "account_number": "123456789",
+    "ifsc_code": "BANK123"
+  },
+  "notes": "Please make the payment by the due date.",
+  "terms": "Net 30"
+}

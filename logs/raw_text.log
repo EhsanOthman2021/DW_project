@@ -1,0 +1,121 @@
+[2025-12-05 17:13:24] [INFO] - Loading Phi-3 model...
+[2025-12-05 17:13:35] [INFO] - Phi-3 loaded successfully.
+[2025-12-05 17:13:35] [INFO] - Loading invoice images from local + S3...
+[2025-12-05 17:17:22] [INFO] - Loading Phi-3 model...
+[2025-12-05 17:17:33] [INFO] - Phi-3 loaded successfully.
+[2025-12-05 17:17:39] [INFO] - Loading invoice images from LOCAL + S3...
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:17:50] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-05 17:18:06] [INFO] - Found 57 invoices.
+[2025-12-05 17:18:06] [INFO] - Running Phi-3 → 1.png
+[2025-12-05 17:23:02] [INFO] - Saved → processed_pre/1.json
+[2025-12-05 17:23:02] [INFO] - Running Phi-3 → 11.png
+[2025-12-06 12:14:18] [INFO] - Loading Phi-3 model...
+[2025-12-06 12:14:31] [INFO] - Phi-3 loaded successfully.
+[2025-12-06 12:14:43] [INFO] - Loading invoice images from LOCAL + S3...
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:14:53] [WARNING] - Local PDF OCR skipped (no Poppler). Place PDFs in S3 instead.
+[2025-12-06 12:15:04] [INFO] - Found 57 invoices.
+[2025-12-06 12:15:04] [INFO] - Running Phi-3 → 0.png
+[2025-12-06 12:18:41] [INFO] - Saved → processed_pre/0.json
+[2025-12-06 12:18:41] [INFO] - Running Phi-3 → 1.png
+[2025-12-06 12:22:08] [INFO] - Saved → processed_pre/1.json
+[2025-12-06 12:22:08] [INFO] - Running Phi-3 → 12.png
+[2025-12-06 12:25:40] [INFO] - Saved → processed_pre/12.json
+[2025-12-06 12:25:40] [INFO] - Running Phi-3 → 14.png
+[2025-12-06 12:29:04] [INFO] - Saved → processed_pre/14.json
+[2025-12-06 12:29:04] [INFO] - Running Phi-3 → 15.png
+[2025-12-06 12:32:32] [INFO] - Saved → processed_pre/15.json
+[2025-12-06 12:32:32] [INFO] - Running Phi-3 → 17.png
+[2025-12-06 17:35:52] [INFO] - Saved → processed_pre/17.json
+[2025-12-06 17:35:52] [INFO] - Running Phi-3 → 18.png
+[2025-12-06 17:39:26] [INFO] - Saved → processed_pre/18.json
+[2025-12-06 17:39:26] [INFO] - Running Phi-3 → 2.png
+[2025-12-06 17:42:58] [INFO] - Saved → processed_pre/2.json
+[2025-12-06 17:42:58] [INFO] - Running Phi-3 → 23.png
+[2025-12-06 17:46:49] [INFO] - Saved → processed_pre/23.json
+[2025-12-06 17:46:49] [INFO] - Running Phi-3 → 24.png
+[2025-12-06 17:50:44] [INFO] - Saved → processed_pre/24.json
+[2025-12-06 17:50:44] [INFO] - Running Phi-3 → 25.png

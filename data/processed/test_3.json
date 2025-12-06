@@ -1,0 +1,55 @@
+{
+  "invoice_number": "8643-519",
+  "invoice_date": "04-Apr-2020",
+  "due_date": "11-Apr-2020",
+
+  "vendor": {
+    "name": null,
+    "address": null,
+    "email": null,
+    "phone": null,
+    "website": null
+  },
+
+  "buyer": {
+    "name": "William Fisher",
+    "address": "900 James Groves, Hannahhaven, NM 23369 US",
+    "email": "lara@example.com",
+    "phone": "(899)657-3344",
+    "website": "http://www.freeman.org/"
+  },
+
+  "line_items": [
+    {
+      "description": "Purpose.",
+      "quantity": 2.00,
+      "unit_price": 98.59,
+      "amount": 197.18
+    },
+    {
+      "description": "Key recent.",
+      "quantity": 4.00,
+      "unit_price": 90.13,
+      "amount": 360.52
+    }
+  ],
+
+  "totals": {
+    "subtotal": 557.70,
+    "discount": 0,
+    "taxes": null,
+    "total_amount": 557.70,
+    "currency": "EUR"
+  },
+
+  "bank_info": {
+    "bank_name": "Bank of America",
+    "account_number": "123456789",
+    "routing_number": "987654321",
+    "branch": "Main Branch",
+    "account_name": "William Fisher"
+  },
+
+  "notes": "Total in words: five hundred and seventy-eight point nine two",
+  "terms": "Will be charged if payment is not made within the due date."
+}

@@ -1,0 +1,59 @@
+{
+  "invoice_number": "INV05374322",
+  "invoice_date": "20-Dec-2018",
+  "due_date": "24-Nov-2014",
+  "vendor": {
+    "name": "Murphy-Gallegos",
+    "address": "045 David Walk Suite 362, East Robert, NV 70596 US",
+    "email": "",
+    "phone": "",
+    "website": ""
+  },
+  "buyer": {
+    "name": "Anna Garcia",
+    "address": "17226 Stevens Springs Suite 187, Lake Jamie, MP 23718 US",
+    "email": "perkinsnicole@example.net",
+    "phone": "+(004)910-6547",
+    "website": "http://www.williams-smith.com/"
+  },
+  "line_items": [
+    {
+      "description": "Just opportunity role treat",
+      "quantity": "4.00",
+      "unit_price": "97.20",
+      "amount": ""
+    },
+    {
+      "description": "After fuel out",
+      "quantity": "3.00",
+      "unit_price": "96.69",
+      "amount": ""
+    },
+    {
+      "description": "Fly morning happen",
+      "quantity": "6.00",
+      "unit_price": "27.30",
+      "amount": ""
+    }
+  ],
+  "totals": {
+    "subtotal": "",
+    "discount": "",
+    "taxes": "29.97",
+    "total_amount": "658.31",
+    "currency": "USD"
+  },
+  "bank_info": {
+    "bank_name": "",
+    "bank_address": "",
+    "account_number": "",
+    "routing_number": "",
+    "swift_code": "",
+    "city": "",
+    "state": "",
+    "zip": "",
+    "country": ""
+  },
+  "notes": "",
+  "terms": ""
+}

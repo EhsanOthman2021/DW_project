@@ -1,0 +1,55 @@
+{
+  "invoice_number": "6Y8M0d-837",
+  "invoice_date": "23-Oct-2019",
+  "due_date": "30-Mar-2018",
+  "vendor": {
+    "name": "Sean",
+    "address": "496 Buck Rest Suite 598, Jenningsburgh, UT 95460 US",
+    "email": "",
+    "phone": "",
+    "website": ""
+  },
+  "buyer": {
+    "name": "Hannah Price",
+    "address": "0908 Christopher Glens Suite 817, Valerietand, IO 21578 US",
+    "email": "martinjennifer@example.com",
+    "phone": "+(177)387-6060",
+    "website": "http://duncan-boone.info/"
+  },
+  "line_items": [
+    {
+      "description": "Beautiful break unit",
+      "quantity": "2.00",
+      "unit_price": "57.28",
+      "amount": ""
+    },
+    {
+      "description": "That class",
+      "quantity": "4.00",
+      "unit_price": "56.45",
+      "amount": ""
+    }
+  ],
+  "totals": {
+    "subtotal": "",
+    "discount": "",
+    "taxes": "",
+    "total_amount": "",
+    "currency": ""
+  },
+  "bank_info": {
+    "account_name": "",
+    "account_number": "",
+    "bank_name": "",
+    "bank_address": "",
+    "bank_city": "",
+    "bank_state": "",
+    "bank_zip": "",
+    "bank_country": "",
+    "routing_number": "",
+    "account_type": "",
+    "swift_code": ""
+  },
+  "notes": "",
+  "terms": "1. Please send payment within 8 days of receiving this invoice. There will be a 2.5% interest charge per month on late invoices. 2. Please include the Invoice number in your payment notes."
+}

@@ -1,0 +1,54 @@
+{
+  "invoice_number": "INV/15-21/217",
+  "invoice_date": "08-Sep-2001",
+  "due_date": "10-Sep-2018",
+
+  "vendor": {
+    "name": "Kirk, Murphy and Daniels",
+    "address": "",
+    "email": "",
+    "phone": "",
+    "website": ""
+  },
+
+  "buyer": {
+    "name": "Miguel Valentine",
+    "address": "55793 Michael Trail Apt. 823, Gibsonport, FL 60164 US",
+    "phone": "+(088)190-6271",
+    "email": "iford@example.com",
+    "website": "http://www.peterson.biz/"
+  },
+
+  "ship_to": {
+    "name": "",
+    "address": "",
+    "phone": "",
+    "email": "",
+    "website": ""
+  },
+
+  "line_items": [
+    {
+      "description": "Baby son.",
+      "quantity": "6.00",
+      "unit_price": "6.41",
+      "amount": "38.46"
+    },
+    {
+      "description": "Already cost century.",
+      "quantity": "6.00",
+      "unit_price": "60.55",
+      "amount": "363.30"
+    }
+  ],
+
+  "totals": {
+    "subtotal": "399.72",
+    "taxes": "16.64",
+    "discount": "",
+    "total_amount": "399.72"
+  },
+
+  "notes": "Thank you for your business! Total in words: three hundred and ninety-nine point seven two",
+  "terms": ""
+}

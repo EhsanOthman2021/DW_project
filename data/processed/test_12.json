@@ -1,0 +1,60 @@
+{
+  "invoice_number": "INV24437684",
+  "invoice_date": "09-Jul-2013",
+  "due_date": "",
+
+  "vendor": {
+    "name": "",
+    "address": "",
+    "email": "",
+    "phone": "",
+    "website": ""
+  },
+
+  "buyer": {
+    "name": "Alexandra Taylor DDS",
+    "address": "067 Nancy Hill Suite 640, Scottville, MT 88751 US",
+    "phone": "+(207)073-1514",
+    "email": "lynchevelyn@example.org",
+    "website": "https://matthews-dominguez.com/"
+  },
+
+  "ship_to": {
+    "name": "Alexandra Taylor DDS",
+    "address": "067 Nancy Hill Suite 640, Scottville, MT 88751 US",
+    "phone": "+(207)073-1514",
+    "email": "lynchevelyn@example.org",
+    "website": "https://matthews-dominguez.com/"
+  },
+
+  "line_items": [
+    {
+      "description": "Same service tree.",
+      "quantity": "4.00",
+      "unit_price": "66.35",
+      "amount": "265.40"
+    },
+    {
+      "description": "Professional black investment stock.",
+      "quantity": "3.00",
+      "unit_price": "27.09",
+      "amount": "81.27"
+    },
+    {
+      "description": "Agree health.",
+      "quantity": "1.00",
+      "unit_price": "90.86",
+      "amount": "90.86"
+    }
+  ],
+
+  "totals": {
+    "subtotal": "437.53",
+    "taxes": "",
+    "discount": "",
+    "total_amount": "437.53"
+  },
+
+  "notes": "Total in words: four hundred and thirty-two point seven seven",
+  "terms": "Terms and Conditions: will be charged if payment is not made within the due date."
+}

@@ -1,0 +1,55 @@
+{
+  "invoice_number": "INV/88-98/805",
+  "invoice_date": "28-Feb-2004",
+  "due_date": "07-Aug-2022",
+  "vendor": {
+    "name": "Parker, Phillips and Thomas",
+    "address": "8508 Morgan Forge Suite 534, North Michaelchester, VT 71194 US",
+    "email": "",
+    "phone": "",
+    "website": ""
+  },
+  "buyer": {
+    "name": "Matthew Bradley",
+    "address": "18077 Kayla Island, Andrewborough, MH 26704 US",
+    "email": "ineal@example.net",
+    "phone": "+(095)250-7945",
+    "website": "https://www.obrien.biz/"
+  },
+  "line_items": [
+    {
+      "description": "Receive itself keep.",
+      "quantity": "6.00",
+      "unit_price": "28.70",
+      "amount": "172.20"
+    },
+    {
+      "description": "Apply over statement.",
+      "quantity": "3.00",
+      "unit_price": "36.35",
+      "amount": "109.05"
+    },
+    {
+      "description": "",
+      "quantity": "5.00",
+      "unit_price": "43.58",
+      "amount": "217.90"
+    }
+  ],
+  "totals": {
+    "subtotal": "499.15",
+    "discount": "0.00",
+    "taxes": "20%",
+    "bank_charges": "10.00",
+    "total_amount": "813.42",
+    "currency": "EUR"
+  },
+  "bank_info": {
+    "bank_name": "State Bank of California",
+    "branch_name": "Raf CAMP",
+    "account_number": "11662852",
+    "swift_code": "SBININBB250"
+  },
+  "notes": "",
+  "terms": "Net 30"
+}

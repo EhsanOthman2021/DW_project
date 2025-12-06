@@ -1,0 +1,75 @@
+{
+  "invoice_number": "9067-093",
+  "invoice_date": "28-May-2018",
+  "due_date": "",
+  "vendor": {
+    "name": "",
+    "address": "61959 Fernando Island Apt. 694, South Jessica, CT 86255 US",
+    "gstin": "200X0C0C9424D1Z5",
+    "email": "",
+    "phone": "",
+    "website": ""
+  },
+  "buyer": {
+    "name": "Kimberly Baxter",
+    "address": "6004 Wilcox Burgs, South Joshuastad, SD 55912 US",
+    "email": "swalls@example.com",
+    "phone": "+(955)347-4621",
+    "website": "http://www.espinoza-patel.com/"
+  },
+  "ship_to": {
+    "name": "Ronald Woods",
+    "address": "561 Mary Camp, Cabreraport, SD 44169 US",
+    "site": "http://craig-espinoza.com/"
+  },
+  "line_items": [
+    {
+      "description": "Expert stop visit.",
+      "quantity": "1.00",
+      "unit_price": "29.28",
+      "amount": "29.28"
+    },
+    {
+      "description": "Thank hope who.",
+      "quantity": "6.00",
+      "unit_price": "87.59",
+      "amount": "525.54"
+    },
+    {
+      "description": "Popular wear safe.",
+      "quantity": "6.00",
+      "unit_price": "12.87",
+      "amount": "77.22"
+    },
+    {
+      "description": "Election medical hospital.",
+      "quantity": "6.00",
+      "unit_price": "15.32",
+      "amount": "91.92"
+    },
+    {
+      "description": "Build financial seem.",
+      "quantity": "4.00",
+      "unit_price": "63.81",
+      "amount": "255.24"
+    }
+  ],
+  "totals": {
+    "subtotal": "",
+    "discount": "",
+    "taxes": "",
+    "total_amount": "1019.01",
+    "currency": "USD"
+  },
+  "bank_info": {
+    "bank_name": "",
+    "bank_address": "",
+    "account_number": "",
+    "routing_number": "",
+    "swift_code": "",
+    "iban": "",
+    "country": ""
+  },
+  "notes": "Total payment due in 14 days.",
+  "terms": ""
+}

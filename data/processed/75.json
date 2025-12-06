@@ -1,0 +1,60 @@
+{
+  "invoice_number": "Not explicitly provided (ID appears to be internal row numbers)",
+  "invoice_date": "14-Jun-2017",
+  "due_date": "06-Nov-2022",
+  "vendor": {
+    "name": "Fernandez PLC",
+    "address": "2942 Gary Village Suite 237, New Yolandaland, IL 18166 US",
+    "email": "fernandez@gmail.com",
+    "phone": "+1 217-555-1234",
+    "website": "www.fernandezplc.com"
+  },
+  "buyer": {
+    "name": null,
+    "address": null,
+    "email": null,
+    "phone": null,
+    "website": null
+  },
+  "line_items": [
+    {
+      "description": "Guy stock always quickly",
+      "quantity": 1.0,
+      "unit_price": 69.76,
+      "amount": 69.76
+    },
+    {
+      "description": "Think nor",
+      "quantity": 2.0,
+      "unit_price": 36.66,
+      "amount": 73.32
+    },
+    {
+      "description": "Short",
+      "quantity": 5.0,
+      "unit_price": 21.27,
+      "amount": 106.35
+    },
+    {
+      "description": "Eat finally available",
+      "quantity": 5.0,
+      "unit_price": 26.69,
+      "amount": 133.45
+    }
+  ],
+  "totals": {
+    "subtotal": 298.17,
+    "discount": 0.00,
+    "taxes": 0.00,
+    "total_amount": 298.17,
+    "currency": "EUR"
+  },
+  "bank_info": {
+    "bank_name": "Central Bank of California",
+    "branch_name": "Raf CAMP",
+    "account_number": "16773920",
+    "swift_code": "SBININBB250"
+  },
+  "notes": "Please send payment within 8 days of receiving this invoice. Include the invoice number in your payment notes.",
+  "terms": "2.5% interest charge per month on late invoices."
+}

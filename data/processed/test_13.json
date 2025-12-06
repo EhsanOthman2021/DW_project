@@ -1,0 +1,54 @@
+{
+  "invoice_number": "8236-546",
+  "invoice_date": "19-May-2002",
+  "due_date": "",
+
+  "vendor": {
+    "name": "Robinson-Carson",
+    "address": "28713 Hart Fort Suite 267, Stewarttown, MI 55458 US",
+    "email": "",
+    "phone": "",
+    "website": ""
+  },
+
+  "buyer": {
+    "name": "Kimberly Barber",
+    "address": "4252 Lee Flat, Rayfurt, ID 38046 US",
+    "phone": "+(001)443-2835",
+    "email": "grahamrichard@example.org",
+    "website": "https://www.payne.com/"
+  },
+
+  "ship_to": {
+    "name": "Adam Cochran",
+    "address": "04057 Eric Views, Bennetton, IA 38054 US",
+    "phone": "+(936)982-6742",
+    "email": "jacob60@example.com",
+    "website": "https://roberts-martin.com/"
+  },
+
+  "line_items": [
+    {
+      "description": "Suggest natural election.",
+      "quantity": "6.00",
+      "unit_price": "37.67",
+      "amount": "226.02"
+    },
+    {
+      "description": "Market who question.",
+      "quantity": "6.00",
+      "unit_price": "55.39",
+      "amount": "332.34"
+    }
+  ],
+
+  "totals": {
+    "subtotal": "558.36",
+    "taxes": "",
+    "discount": "",
+    "total_amount": "572.58"
+  },
+
+  "notes": "Total in words: five hundred and seventy-two point five eight",
+  "terms": ""
+}

@@ -1,0 +1,61 @@
+{
+  "invoice_number": "0551-467",
+  "invoice_date": "27-Jan-1993",
+  "due_date": "17-Nov-2014",
+  "vendor": {
+    "name": "Berg, Ward and Wright",
+    "address": "5776 Whitney Meadow, West Adriennebury, ID 40049 US",
+    "email": "",
+    "phone": "",
+    "website": ""
+  },
+  "buyer": {
+    "name": "",
+    "address": "45408 Dunn Prairie Suite 940, South Joan, KY 20203 US",
+    "email": "vspence@example.org",
+    "phone": "+(553)144-2538",
+    "website": "http://www.rose.com/"
+  },
+  "line_items": [
+    {
+      "description": "Very pull.",
+      "quantity": "200",
+      "unit_price": "78.90",
+      "amount": ""
+    },
+    {
+      "description": "Raise speak.",
+      "quantity": "5.00",
+      "unit_price": "95.01",
+      "amount": ""
+    },
+    {
+      "description": "Star fight.",
+      "quantity": "4.00",
+      "unit_price": "29.74",
+      "amount": ""
+    },
+    {
+      "description": "Knowledge himself least",
+      "quantity": "6.00",
+      "unit_price": "11.70",
+      "amount": ""
+    }
+  ],
+  "totals": {
+    "subtotal": "826.51",
+    "discount": "",
+    "taxes": "28.65",
+    "total_amount": "834.58",
+    "currency": "USD"
+  },
+  "bank_info": {
+    "bank_name": "Bank of America",
+    "bank_address": "1000 West Adams Street, San Francisco, CA 94103 US",
+    "account_number": "123456789",
+    "routing_number": "021000021",
+    "payment_method": "Check"
+  },
+  "notes": "Payment due on or before 17-Nov-2014",
+  "terms": "Net 30"
+}

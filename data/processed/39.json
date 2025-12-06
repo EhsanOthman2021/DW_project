@@ -1,0 +1,53 @@
+{
+  "invoice_number": "INV/55-61/025",
+  "invoice_date": "28-Jan-2003",
+  "due_date": "",
+  "vendor": {
+    "name": "Barnes, Garcia and Martin",
+    "address": "13868 Michael Wall, North Cindytown, CT 45483 US",
+    "gstin": "3312345678910221",
+    "email": "",
+    "phone": "",
+    "website": ""
+  },
+  "buyer": {
+    "name": "Dr. Charles Martin",
+    "address": "188649 Williams Wells Suite 160, Chapmanfurt, OR 08912 US",
+    "email": "clee@example.net",
+    "phone": "+(978)499-5509",
+    "website": "https://nelson.net/"
+  },
+  "line_items": [
+    {
+      "description": "their across.",
+      "quantity": "4.00",
+      "unit_price": "25.00",
+      "amount": ""
+    },
+    {
+      "description": "Fund sea",
+      "quantity": "3.00",
+      "unit_price": "21.00",
+      "amount": ""
+    }
+  ],
+  "totals": {
+    "subtotal": "55.63",
+    "discount": "",
+    "taxes": "3.89",
+    "total_amount": "56.58",
+    "currency": "EUR"
+  },
+  "bank_info": {
+    "bank_name": "",
+    "bank_address": "",
+    "bank_city": "",
+    "bank_state": "",
+    "bank_zip": "",
+    "account_number": "",
+    "routing_number": "",
+    "swift_bic": ""
+  },
+  "notes": "",
+  "terms": ""
+}

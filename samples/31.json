@@ -1,0 +1,58 @@
+{
+    "invoice_number": "9904-224",
+    "invoice_date": "27-Sep-2008",
+    "due_date": "30-Apr-1994",
+    "vendor": {
+        "name": "Faulkner LLC",
+        "address": "841 Marshall Knolls, Timothystad, SC 63653 US"
+    },
+    "buyer": {
+        "name": "Brandy Jones",
+        "address": "529 Lisa Ports, Langmouth, NE 04570 US",
+        "email": "mary26@example.net",
+        "phone": "+1(816)994-4699",
+        "website": "http://lopez-scott.com/"
+    },
+    "line_items": [
+        {
+            "description": "Student fly our.",
+            "quantity": "5.00",
+            "unit_price": "86.52",
+            "amount": "432.60"
+        },
+        {
+            "description": "Consumer amount bring.",
+            "quantity": "3.00",
+            "unit_price": "44.98",
+            "amount": "134.94"
+        },
+        {
+            "description": "Capital never technology catch.",
+            "quantity": "1.00",
+            "unit_price": "26.30",
+            "amount": "26.30"
+        },
+        {
+            "description": "Raise growth office large.",
+            "quantity": "1.00",
+            "unit_price": "43.98",
+            "amount": "43.98"
+        }
+    ],
+    "totals": {
+        "subtotal": "637.04",
+        "discount": "13.84",
+        "taxes": "",
+        "total_amount": "652.88"
+    },
+    "bank_info": {
+        "name": "",
+        "address": "",
+        "city": "",
+        "state": "",
+        "zip": "",
+        "country": ""
+    },
+    "notes": "",
+    "terms": "1. Please send payment within 8 days of receiving this invoice. There will be a 2.5% interest charge per month on late invoices. 2. Please include the Invoice number in your payment notes."
+}

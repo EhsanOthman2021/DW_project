@@ -1,0 +1,151 @@
+2025-12-05 16:07:52,720 - INFO - ==== Evaluation Script Started ====
+2025-12-05 16:07:52,736 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-12-05 16:07:58,661 - INFO - Loading test dataset...
+2025-12-05 16:07:58,707 - INFO - Loading trained XGBoost model...
+2025-12-05 16:08:01,610 - INFO - Loading embedder & scaler...
+2025-12-05 16:08:01,640 - INFO - Use pytorch device_name: cuda:0
+2025-12-05 16:08:01,641 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-05 16:08:06,639 - INFO - Embedding text data...
+2025-12-05 16:08:07,559 - INFO - Embeddings completed in 0.92s
+2025-12-05 16:08:07,559 - INFO - Scaling numeric features...
+2025-12-05 16:08:10,104 - INFO - Computing predictions...
+2025-12-05 16:08:10,139 - INFO - Prediction completed in 0.03s
+2025-12-05 16:08:10,185 - INFO - Accuracy: 0.9810
+2025-12-05 16:08:10,186 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.92      0.96        25
+           1       0.98      1.00      0.99        80
+
+    accuracy                           0.98       105
+   macro avg       0.99      0.96      0.97       105
+weighted avg       0.98      0.98      0.98       105
+
+2025-12-05 16:08:10,187 - INFO - Computing coverage...
+2025-12-05 16:08:10,191 - INFO - Coverage (model marks as correct): 78.10%
+2025-12-05 16:08:10,191 - INFO - Computing leakage...
+2025-12-05 16:08:10,193 - INFO - Leakage Count (False Positives): 2
+2025-12-05 16:08:10,194 - INFO - Leakage Percentage: 1.90%
+2025-12-05 16:08:10,194 - INFO - Computing leakage cost...
+2025-12-05 16:08:10,198 - INFO - Total Financial Leakage = 68.84
+2025-12-05 16:08:10,200 - INFO - Total Possible Loss: 860.50
+2025-12-05 16:08:10,201 - INFO - Loss Avoided by Model: 791.66
+2025-12-05 16:08:10,202 - INFO - Saving Coverage (%): 92.00%
+2025-12-05 16:08:10,202 - INFO - Generating interactive plots...
+2025-12-05 16:08:22,996 - INFO - All plots saved locally.
+2025-12-05 16:08:22,996 - INFO - Uploading evaluation reports to S3...
+2025-12-05 16:08:27,155 - INFO - Uploaded to S3: s3://my-fatura2-bucket/invoice_model_reports/confusion_matrix.html
+2025-12-05 16:08:28,819 - INFO - Uploaded to S3: s3://my-fatura2-bucket/invoice_model_reports/roc_curve.html
+2025-12-05 16:08:30,451 - INFO - Uploaded to S3: s3://my-fatura2-bucket/invoice_model_reports/precision_recall_curve.html
+2025-12-05 16:08:32,128 - INFO - Uploaded to S3: s3://my-fatura2-bucket/invoice_model_reports/accuracy.html
+2025-12-05 16:08:33,760 - INFO - Uploaded to S3: s3://my-fatura2-bucket/invoice_model_reports/coverage.html
+2025-12-05 16:08:35,369 - INFO - Uploaded to S3: s3://my-fatura2-bucket/invoice_model_reports/saving_coverage.html
+2025-12-05 16:08:35,508 - INFO - Uploaded to S3: s3://my-fatura2-bucket/invoice_model_reports/evaluation.log
+2025-12-05 16:08:35,647 - INFO - Uploaded to S3: s3://my-fatura2-bucket/invoice_model_reports/metrics_summary.json
+2025-12-05 16:08:35,815 - INFO - Uploaded to S3: s3://my-fatura2-bucket/invoice_model_reports/false_positives.csv
+2025-12-05 16:08:35,816 - INFO - All report files successfully uploaded to S3.
+2025-12-05 16:08:35,817 - INFO - ==== Evaluation Completed Successfully ====
+2025-12-05 16:16:06,132 - INFO - ==== Evaluation Script Started ====
+2025-12-05 16:16:06,146 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-12-05 16:16:12,721 - INFO - Loading test dataset...
+2025-12-05 16:16:12,743 - INFO - Loading trained model...
+2025-12-05 16:16:15,882 - INFO - Loading embedder + scaler...
+2025-12-05 16:16:15,934 - INFO - Use pytorch device_name: cuda:0
+2025-12-05 16:16:15,935 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-05 16:16:21,762 - INFO - Embedding text fields...
+2025-12-05 16:16:22,708 - INFO - Scaling numeric fields...
+2025-12-05 16:16:22,748 - INFO - Generating predictions...
+2025-12-05 16:16:22,822 - INFO - Accuracy = 0.9810
+2025-12-05 16:18:27,909 - INFO -               precision    recall  f1-score   support
+
+           0       1.00      0.92      0.96        25
+           1       0.98      1.00      0.99        80
+
+    accuracy                           0.98       105
+   macro avg       0.99      0.96      0.97       105
+weighted avg       0.98      0.98      0.98       105
+
+2025-12-05 16:23:15,664 - INFO - ==== Evaluation Script Started ====
+2025-12-05 16:23:15,683 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-12-05 16:23:24,632 - INFO - Loading test dataset...
+2025-12-05 16:23:24,653 - INFO - Loading trained model...
+2025-12-05 16:23:27,269 - INFO - Loading embedder + scaler...
+2025-12-05 16:23:27,302 - INFO - Use pytorch device_name: cuda:0
+2025-12-05 16:23:27,302 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-05 16:23:32,417 - INFO - Embedding text descriptions...
+2025-12-05 16:23:33,055 - INFO - Scaling numeric columns...
+2025-12-05 16:23:33,064 - INFO - Running predictions...
+2025-12-05 16:23:34,734 - INFO - Accuracy = 0.9810
+2025-12-05 16:23:34,734 - INFO -               precision    recall  f1-score   support
+
+           0       1.00      0.92      0.96        25
+           1       0.98      1.00      0.99        80
+
+    accuracy                           0.98       105
+   macro avg       0.99      0.96      0.97       105
+weighted avg       0.98      0.98      0.98       105
+
+2025-12-05 16:23:34,753 - INFO - Saved updated test CSV: reports/test_with_predictions.csv
+2025-12-05 16:23:34,754 - INFO - Creating evaluation plots...
+2025-12-05 16:23:38,617 - INFO - Plots created successfully.
+2025-12-05 16:23:38,618 - INFO - Uploading reports to S3...
+2025-12-05 16:23:40,027 - INFO - ERROR uploading reports/test_with_predictions.csv -> Failed to upload reports/test_with_predictions.csv to your-bucket-name/invoice_model_reports/test_with_predictions.csv: An error occurred (AccessDenied) when calling the PutObject operation: Access Denied
+2025-12-05 16:23:40,681 - INFO - ERROR uploading reports/confusion_matrix.html -> Failed to upload reports/confusion_matrix.html to your-bucket-name/invoice_model_reports/confusion_matrix.html: An error occurred (AccessDenied) when calling the PutObject operation: Access Denied
+2025-12-05 16:23:41,403 - INFO - ERROR uploading reports/roc_curve.html -> Failed to upload reports/roc_curve.html to your-bucket-name/invoice_model_reports/roc_curve.html: An error occurred (AccessDenied) when calling the PutObject operation: Access Denied
+2025-12-05 16:23:42,080 - INFO - ERROR uploading reports/precision_recall_curve.html -> Failed to upload reports/precision_recall_curve.html to your-bucket-name/invoice_model_reports/precision_recall_curve.html: An error occurred (AccessDenied) when calling the PutObject operation: Access Denied
+2025-12-05 16:23:42,609 - INFO - ERROR uploading reports/accuracy.html -> Failed to upload reports/accuracy.html to your-bucket-name/invoice_model_reports/accuracy.html: An error occurred (AccessDenied) when calling the PutObject operation: Access Denied
+2025-12-05 16:23:43,072 - INFO - ERROR uploading reports/evaluation.log -> Failed to upload reports/evaluation.log to your-bucket-name/invoice_model_reports/evaluation.log: An error occurred (AccessDenied) when calling the PutObject operation: Access Denied
+2025-12-05 16:23:43,574 - INFO - ERROR uploading reports/metrics_summary.json -> Failed to upload reports/metrics_summary.json to your-bucket-name/invoice_model_reports/metrics_summary.json: An error occurred (AccessDenied) when calling the PutObject operation: Access Denied
+2025-12-05 16:23:45,589 - INFO - ==== Evaluation Completed Successfully ====
+2025-12-05 16:26:03,413 - INFO - ==== Evaluation Script Started ====
+2025-12-05 16:26:03,433 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-12-05 16:26:12,084 - INFO - Loading test dataset...
+2025-12-05 16:26:12,134 - INFO - Loading trained model...
+2025-12-05 16:26:14,764 - INFO - Loading embedder + scaler...
+2025-12-05 16:26:14,808 - INFO - Use pytorch device_name: cuda:0
+2025-12-05 16:26:14,809 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-05 16:26:20,695 - INFO - Embedding text descriptions...
+2025-12-05 16:26:21,785 - INFO - Scaling numeric columns...
+2025-12-05 16:26:21,800 - INFO - Running predictions...
+2025-12-05 16:32:25,839 - INFO - Accuracy = 0.9810
+2025-12-05 16:32:25,840 - INFO -               precision    recall  f1-score   support
+
+           0       1.00      0.92      0.96        25
+           1       0.98      1.00      0.99        80
+
+    accuracy                           0.98       105
+   macro avg       0.99      0.96      0.97       105
+weighted avg       0.98      0.98      0.98       105
+
+2025-12-05 16:32:25,868 - INFO - Saved updated test CSV: reports/test_with_predictions.csv
+2025-12-05 16:32:25,869 - INFO - Creating evaluation plots...
+2025-12-05 16:32:30,389 - INFO - Plots created successfully.
+2025-12-05 16:32:30,389 - INFO - Uploading reports to S3...
+2025-12-05 16:32:30,886 - INFO - Uploaded: s3://my-fatura2-bucket/invoice_model_reports/test_with_predictions.csv
+2025-12-05 16:32:33,254 - INFO - Uploaded: s3://my-fatura2-bucket/invoice_model_reports/confusion_matrix.html
+2025-12-05 16:32:34,889 - INFO - Uploaded: s3://my-fatura2-bucket/invoice_model_reports/roc_curve.html
+2025-12-05 16:32:36,661 - INFO - Uploaded: s3://my-fatura2-bucket/invoice_model_reports/precision_recall_curve.html
+2025-12-05 16:32:38,255 - INFO - Uploaded: s3://my-fatura2-bucket/invoice_model_reports/accuracy.html
+2025-12-05 16:32:38,399 - INFO - Uploaded: s3://my-fatura2-bucket/invoice_model_reports/evaluation.log
+2025-12-05 16:32:38,559 - INFO - Uploaded: s3://my-fatura2-bucket/invoice_model_reports/metrics_summary.json
+2025-12-05 16:32:40,807 - INFO - ==== Evaluation Completed Successfully ====
+2025-12-05 17:30:45,640 - INFO - ==== Evaluation Script Started ====
+2025-12-05 17:30:45,654 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-12-05 17:30:50,264 - INFO - Loading test dataset...
+2025-12-05 17:30:50,292 - INFO - Loading trained model...
+2025-12-05 17:30:52,985 - INFO - Loading embedder + scaler...
+2025-12-05 17:30:53,018 - INFO - Use pytorch device_name: cuda:0
+2025-12-05 17:30:53,019 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-12-05 17:31:00,158 - INFO - Embedding text descriptions...
+2025-12-05 17:31:01,198 - INFO - Scaling numeric columns...
+2025-12-05 17:31:01,213 - INFO - Running predictions...
+2025-12-05 17:31:01,302 - INFO - Accuracy = 0.9810
+2025-12-05 17:31:01,303 - INFO -               precision    recall  f1-score   support
+
+           0       1.00      0.92      0.96        25
+           1       0.98      1.00      0.99        80
+
+    accuracy                           0.98       105
+   macro avg       0.99      0.96      0.97       105
+weighted avg       0.98      0.98      0.98       105
+

@@ -1,0 +1,58 @@
+{
+  "invoice_number": "INV/62-03/343",
+  "invoice_date": "05-Aug-2002",
+  "due_date": "04-Dec-2004",
+  "vendor": {
+    "name": "Graham, Carrillo and Stark",
+    "address": "110 Lee Haven, le, IN 23979 US",
+    "email": "ghodges@example.org",
+    "website": "www.GrahamCarrilloandStark.com"
+  },
+  "buyer": {
+    "name": "Katie Phillips",
+    "address": "4020 Johnny Fork, South Kimburgh, AZ 84325 US",
+    "email": "delgadowill",
+    "phone": "+(968)592-7253",
+    "website": "http://fbarker.com/"
+  },
+  "ship_to": {
+    "name": "Grace Moran",
+    "address": "7048 Jordan Loaf Apt. 561, Heidifort, MN 22123 US",
+    "email": "johnbrown@example.net",
+    "phone": "+(107)184-7422",
+    "website": "http://www.baker.info/"
+  },
+  "line_items": [
+    {
+      "description": "Behind tizen",
+      "quantity": "6.00",
+      "unit_price": "05.22",
+      "amount": ""
+    },
+    {
+      "description": "Prove meeting near",
+      "quantity": "6.00",
+      "unit_price": "25.16",
+      "amount": ""
+    }
+  ],
+  "totals": {
+    "subtotal": "722.28",
+    "discount": "",
+    "taxes": "",
+    "total_amount": "720.38",
+    "currency": "$"
+  },
+  "bank_info": {
+    "bank_name": "State Bank of Europe",
+    "branch_name": "Raf CAMP",
+    "account_number": "11555657",
+    "swift_code": "SBININBB250",
+    "city": "",
+    "state": "",
+    "zip": "",
+    "country": ""
+  },
+  "notes": "",
+  "terms": "1. Please send payment within 8 days of receiving this invoice. There will be a 2.5% interest charge per month on late invoices. 2. Please include the Invoice number in your payment notes."
+}

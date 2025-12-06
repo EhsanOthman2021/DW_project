@@ -1,0 +1,43 @@
+[2025-12-05 14:59:24] [INFO] - Loading CSV → data/db/df_invoices.csv
+[2025-12-05 14:59:24] [INFO] - Loaded 189 rows and 36 columns.
+[2025-12-05 14:59:24] [INFO] - Cleaning text columns...
+[2025-12-05 14:59:24] [INFO] - Text cleaning complete.
+[2025-12-05 14:59:24] [INFO] - Cleaning numeric columns...
+[2025-12-05 14:59:24] [INFO] - Numeric cleaning complete.
+[2025-12-05 14:59:24] [INFO] - Standardizing date formats...
+[2025-12-05 14:59:24] [INFO] - Date cleaning complete.
+[2025-12-05 14:59:24] [INFO] - Saving cleaned CSV → data/db/df_invoices_cleaned.csv
+[2025-12-05 14:59:24] [INFO] - Cleaned file saved successfully.
+[2025-12-05 15:17:29] [INFO] - Loading CSV → data/db/df_invoices.csv
+[2025-12-05 15:17:29] [INFO] - Loaded 189 rows and 35 columns.
+[2025-12-05 15:17:29] [INFO] - Cleaning text columns...
+[2025-12-05 15:17:32] [WARNING] - Missing text column: id
+[2025-12-05 15:17:32] [INFO] - Text cleaning complete.
+[2025-12-05 15:17:32] [INFO] - Cleaning numeric columns...
+[2025-12-05 15:17:32] [INFO] - Numeric cleaning complete.
+[2025-12-05 15:17:32] [INFO] - Standardizing date formats...
+[2025-12-05 15:17:32] [INFO] - Date cleaning complete.
+[2025-12-05 15:17:32] [INFO] - Saving cleaned CSV → data/db/df_invoices_cleaned.csv
+[2025-12-05 15:17:32] [INFO] - Cleaned file saved successfully.
+[2025-12-05 15:26:45] [INFO] - Loading CSV → data/db/df_invoices.csv
+[2025-12-05 15:27:11] [INFO] - Loaded 189 rows and 35 columns.
+[2025-12-05 15:27:13] [INFO] - Cleaning text columns...
+[2025-12-05 15:27:55] [WARNING] - Missing text column: id
+[2025-12-05 15:28:06] [INFO] - Text cleaning complete.
+[2025-12-05 15:28:07] [INFO] - Cleaning numeric columns...
+[2025-12-05 15:28:19] [INFO] - Numeric cleaning complete.
+[2025-12-05 15:28:19] [INFO] - Standardizing date formats...
+[2025-12-05 15:28:19] [INFO] - Date cleaning complete.
+[2025-12-05 15:28:19] [INFO] - Saving cleaned CSV → data/db/df_invoices_cleaned.csv
+[2025-12-05 15:28:27] [INFO] - Cleaned file saved successfully.
+[2025-12-06 10:47:11] [INFO] - Loading CSV → data/db/df_invoices.csv
+[2025-12-06 10:47:15] [INFO] - Loaded 189 rows and 35 columns.
+[2025-12-06 10:47:16] [INFO] - Cleaning text columns...
+[2025-12-06 10:47:18] [WARNING] - Missing text column: id
+[2025-12-06 10:47:19] [INFO] - Text cleaning complete.
+[2025-12-06 10:47:19] [INFO] - Cleaning numeric columns...
+[2025-12-06 10:47:19] [INFO] - Numeric cleaning complete.
+[2025-12-06 10:47:19] [INFO] - Standardizing date formats...
+[2025-12-06 10:47:19] [INFO] - Date cleaning complete.
+[2025-12-06 10:47:19] [INFO] - Saving cleaned CSV → data/db/df_invoices_cleaned.csv
+[2025-12-06 10:47:20] [INFO] - Cleaned file saved successfully.

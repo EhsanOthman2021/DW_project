@@ -1,0 +1,53 @@
+{
+  "invoice_number": "549-446",
+  "invoice_date": "03-Mar-2016",
+  "due_date": "29-Jan-2021",
+  "vendor": {
+    "name": "Yoder LLC",
+    "address": "010 Jotirey Glens, Port Toddport, OC 16594 US",
+    "gstin": "GSTIN4321AAD22",
+    "email": "",
+    "phone": "",
+    "website": ""
+  },
+  "buyer": {
+    "name": "Randall Torres",
+    "address": "6238 Harris Greens, Ille, NM 11882 US",
+    "email": "ctaylor@example.com",
+    "phone": "",
+    "website": "https://hall-whitney.org/"
+  },
+  "line_items": [
+    {
+      "description": "Board institution executive national.",
+      "quantity": "2.00",
+      "unit_price": "48.35",
+      "amount": "96.70"
+    },
+    {
+      "description": "Relationship line.",
+      "quantity": "2.00",
+      "unit_price": "31.91",
+      "amount": "63.82"
+    }
+  ],
+  "totals": {
+    "subtotal": "150.52",
+    "discount": "0.00",
+    "taxes": "15.03",
+    "total_amount": "165.55",
+    "currency": "USD"
+  },
+  "bank_info": {
+    "bank_name": "Bank of America",
+    "account_number": "123456789",
+    "branch": "Portland, OR",
+    "branch_address": "12345 Portland, OR 97221",
+    "branch_phone": "503-123-4567",
+    "branch_fax": "503-123-4568",
+    "branch_email": "portland@bankofamerica.com",
+    "branch_website": "https://www.bankofamerica.com/portland"
+  },
+  "notes": "Thank you for choosing us!",
+  "terms": "Payment due within 30 days of invoice date. Payment terms: 30 days."
+}

@@ -1,0 +1,4 @@
+[2025-12-06 12:04:18] [INFO] - Starting S3 upload pipeline (1% sample of dataset)...
+[2025-12-06 12:04:18] [ERROR] -    AWS credentials missing! Set environment variables:
+[2025-12-06 12:04:18] [ERROR] -    export AWS_ACCESS_KEY_ID=xxx
+[2025-12-06 12:04:18] [ERROR] -    export AWS_SECRET_ACCESS_KEY=xxx

@@ -1,0 +1,63 @@
+{
+  "invoice_number": "4Y1M7d-017",
+  "invoice_date": "05-Oct-1999",
+  "due_date": "29-Mar-2022",
+  "vendor": {
+    "name": "Rogers, Olson and Sanders",
+    "address": "116 Smith Loop Apt. 882, East David, AL 5672 US"
+  },
+  "buyer": {
+    "name": "",
+    "address": "",
+    "email": "",
+    "phone": "",
+    "website": "",
+    "city": "",
+    "state": "",
+    "zip": "",
+    "country": ""
+  },
+  "line_items": [
+    {
+      "description": "Heavy school available",
+      "quantity": "1",
+      "unit_price": "45.84",
+      "amount": "137.52"
+    },
+    {
+      "description": "Statement for",
+      "quantity": "1",
+      "unit_price": "43.85",
+      "amount": "43.85"
+    },
+    {
+      "description": "Run sign war follow",
+      "quantity": "1",
+      "unit_price": "33.18",
+      "amount": "132.72"
+    },
+    {
+      "description": "When region seek",
+      "quantity": "1",
+      "unit_price": "26.29",
+      "amount": "105.16"
+    }
+  ],
+  "totals": {
+    "subtotal": "436.97",
+    "discount": "0",
+    "taxes": "0",
+    "total_amount": "436.97",
+    "currency": "EUR"
+  },
+  "bank_info": {
+    "name": "",
+    "address": "",
+    "city": "",
+    "state": "",
+    "zip": "",
+    "country": ""
+  },
+  "notes": "All payments to be made in cash. Contact us for queries on these quotations.",
+  "terms": "Payment due date: 29-Mar-2022. Payment method: Cash. Payment location: Vendor's address."
+}

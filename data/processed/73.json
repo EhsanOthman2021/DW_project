@@ -1,0 +1,57 @@
+{
+  "invoice_number": null,
+  "invoice_date": "16-Dec-2005",
+  "due_date": "16-Sep-1999",
+  "vendor": {
+    "name": null,
+    "address": "05866 Velazquez Mount, North Diane, NJ 20651 US",
+    "email": null,
+    "phone": null,
+    "website": null
+  },
+  "buyer": {
+    "name": "Sara Brown",
+    "address": "202 Fuller Causeway, Alexville, FM 55286 US",
+    "email": "edwardflowers@example.com",
+    "phone": "+(057)559-5528",
+    "website": "https://www.brock.com/"
+  },
+  "line_items": [
+    {
+      "description": "Sound approach",
+      "quantity": 6.00,
+      "unit_price": 334.00,
+      "amount": 2004.00
+    },
+    {
+      "description": "Interesting ball roe",
+      "quantity": 4.00,
+      "unit_price": 339.27,
+      "amount": 1357.08
+    },
+    {
+      "description": "Listen",
+      "quantity": 4.00,
+      "unit_price": 92.48,
+      "amount": 369.92
+    },
+    {
+      "description": "Entre machine source",
+      "quantity": 100.00,
+      "unit_price": 88.74,
+      "amount": 8874.00
+    }
+  ],
+  "totals": {
+    "subtotal": 635.62,
+    "discount": 0,
+    "taxes": {
+      "VAT_6.66_percent": 42.30
+    },
+    "total_amount": 649.95,
+    "currency": "USD"
+  },
+  "bank_info": null,
+  "notes": null,
+  "terms": null
+}

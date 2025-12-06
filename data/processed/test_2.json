@@ -1,0 +1,49 @@
+{
+  "invoice_number": "3Y3M8d-350",
+  "invoice_date": "17-Mar-2001",
+  "due_date": null,
+
+  "vendor": {
+    "name": null,
+    "address": null,
+    "email": null,
+    "phone": null,
+    "website": null
+  },
+
+  "buyer": {
+    "name": "George Bowman",
+    "address": "7931 White Mission Apt. 499, Lake Timothy, KY 28497 US",
+    "email": "enicoeg@example.net",
+    "phone": "(696)444-4114",
+    "website": "http://www.gray-hendrix.net/"
+  },
+
+  "line_items": [
+    {
+      "description": "Admi",
+      "quantity": 5.00,
+      "unit_price": 84.31,
+      "amount": 421.55
+    },
+    {
+      "description": "Need responsibility.",
+      "quantity": 1.00,
+      "unit_price": 61.41,
+      "amount": 61.41
+    }
+  ],
+
+  "totals": {
+    "subtotal": 482.96,
+    "discount": 0,
+    "taxes": null,
+    "total_amount": 482.96,
+    "currency": "USD"
+  },
+
+  "bank_info": null,
+
+  "notes": "Please send payment within 8 days of receiving this invoice. There will be a 2.5% interest charge per month on late invoices. Please include the Invoice number in your payment notes.",
+  "terms": "Payment within 8 days; 2.5% monthly interest on late invoices"
+}

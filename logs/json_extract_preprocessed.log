@@ -1,0 +1,10 @@
+[2025-12-06 09:51:02] [INFO] - --------------------------------------------------
+[2025-12-06 09:51:02] [INFO] - Starting Invoice JSON Extraction Pipeline
+[2025-12-06 09:51:02] [INFO] - Model: microsoft/Phi-3-mini-4k-instruct
+[2025-12-06 09:51:02] [INFO] - Input folder:  data/processed_pre
+[2025-12-06 09:51:02] [INFO] - Output folder: data/processed
+[2025-12-06 09:51:02] [INFO] - --------------------------------------------------
+[2025-12-06 09:51:02] [INFO] - Loading model and tokenizer...
+[2025-12-06 09:51:17] [INFO] - Model successfully loaded.
+[2025-12-06 09:51:17] [INFO] - Found 57 JSON files to process.
+[2025-12-06 09:51:17] [INFO] - Extracting JSON from: 1.json

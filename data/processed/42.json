@@ -1,0 +1,47 @@
+{
+  "invoice_number": "INV48337135",
+  "invoice_date": "13-Sep-2012",
+  "due_date": "18-Dec-1994",
+  "vendor": {
+    "name": "Murphy-Gallegos",
+    "address": "045 David Walk Suite 362, East Robert, NV 70596 US",
+    "email": "",
+    "phone": "",
+    "website": ""
+  },
+  "buyer": {
+    "name": "Elizabeth Hughes",
+    "address": "66000 Williams Springs Apt. 228, Lewisborough, MA 32473 US",
+    "email": "pereziestie@example.net",
+    "phone": "+(035)985-2364",
+    "website": "https://ward-mathews.com/"
+  },
+  "line_items": [
+    {
+      "description": "Name pick best movement",
+      "quantity": "2.00",
+      "unit_price": "95.98",
+      "amount": "191.96"
+    },
+    {
+      "description": "President current",
+      "quantity": "3.00",
+      "unit_price": "68.09",
+      "amount": "204.27"
+    }
+  ],
+  "totals": {
+    "subtotal": "396.23",
+    "discount": "",
+    "taxes": "19.43",
+    "total_amount": "405.71",
+    "currency": "EUR"
+  },
+  "bank_info": {
+    "bank_name": "Bank of America",
+    "bank_address": "1000 E Foster Street, San Francisco, CA 94105 US",
+    "account_number": "123456789"
+  },
+  "notes": "Payment terms: Net 30 days",
+  "terms": "Net 30 days"
+}

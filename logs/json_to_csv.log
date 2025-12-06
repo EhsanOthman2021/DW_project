@@ -1,0 +1,370 @@
+[2025-12-05 14:59:14] [INFO] - Starting JSON → CSV conversion...
+[2025-12-05 14:59:14] [INFO] - Reading JSON files from: data/processed
+[2025-12-05 14:59:14] [INFO] - Processing file: 1.json
+[2025-12-05 14:59:14] [INFO] - Found 4 line items in 1.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 11.json
+[2025-12-05 14:59:14] [INFO] - Found 2 line items in 11.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 12.json
+[2025-12-05 14:59:14] [INFO] - Found 2 line items in 12.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 13.json
+[2025-12-05 14:59:14] [INFO] - Found 4 line items in 13.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 15.json
+[2025-12-05 14:59:14] [INFO] - Found 5 line items in 15.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 16.json
+[2025-12-05 14:59:14] [INFO] - Found 4 line items in 16.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 17.json
+[2025-12-05 14:59:14] [INFO] - Found 4 line items in 17.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 18.json
+[2025-12-05 14:59:14] [INFO] - Found 2 line items in 18.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 20.json
+[2025-12-05 14:59:14] [INFO] - Found 4 line items in 20.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 21.json
+[2025-12-05 14:59:14] [INFO] - Found 2 line items in 21.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 22.json
+[2025-12-05 14:59:14] [INFO] - Found 3 line items in 22.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 23.json
+[2025-12-05 14:59:14] [INFO] - Found 5 line items in 23.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 24.json
+[2025-12-05 14:59:14] [INFO] - Found 4 line items in 24.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 29.json
+[2025-12-05 14:59:14] [INFO] - Found 2 line items in 29.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 31.json
+[2025-12-05 14:59:14] [INFO] - Found 4 line items in 31.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 33.json
+[2025-12-05 14:59:14] [INFO] - Found 5 line items in 33.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 34.json
+[2025-12-05 14:59:14] [INFO] - Found 4 line items in 34.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 36.json
+[2025-12-05 14:59:14] [INFO] - Found 4 line items in 36.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 38.json
+[2025-12-05 14:59:14] [INFO] - Found 2 line items in 38.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 39.json
+[2025-12-05 14:59:14] [INFO] - Found 2 line items in 39.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 42.json
+[2025-12-05 14:59:14] [INFO] - Found 2 line items in 42.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 43.json
+[2025-12-05 14:59:14] [INFO] - Found 3 line items in 43.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 47.json
+[2025-12-05 14:59:14] [INFO] - Found 5 line items in 47.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 49.json
+[2025-12-05 14:59:14] [INFO] - Found 3 line items in 49.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 50.json
+[2025-12-05 14:59:14] [INFO] - Found 4 line items in 50.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 51.json
+[2025-12-05 14:59:14] [INFO] - Found 5 line items in 51.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 53.json
+[2025-12-05 14:59:14] [INFO] - Found 2 line items in 53.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 57.json
+[2025-12-05 14:59:14] [INFO] - Found 3 line items in 57.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 6.json
+[2025-12-05 14:59:14] [INFO] - Found 5 line items in 6.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 61.json
+[2025-12-05 14:59:14] [INFO] - Found 3 line items in 61.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 67.json
+[2025-12-05 14:59:14] [INFO] - Found 3 line items in 67.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 68.json
+[2025-12-05 14:59:14] [INFO] - Found 2 line items in 68.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 7.json
+[2025-12-05 14:59:14] [INFO] - Found 2 line items in 7.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 73.json
+[2025-12-05 14:59:14] [INFO] - Found 4 line items in 73.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 74.json
+[2025-12-05 14:59:14] [INFO] - Found 5 line items in 74.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 75.json
+[2025-12-05 14:59:14] [INFO] - Found 4 line items in 75.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 77.json
+[2025-12-05 14:59:14] [INFO] - Found 3 line items in 77.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 79.json
+[2025-12-05 14:59:14] [INFO] - Found 5 line items in 79.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 80.json
+[2025-12-05 14:59:14] [INFO] - Found 5 line items in 80.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 82.json
+[2025-12-05 14:59:14] [INFO] - Found 5 line items in 82.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 83.json
+[2025-12-05 14:59:14] [INFO] - Found 3 line items in 83.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 84.json
+[2025-12-05 14:59:14] [INFO] - Found 3 line items in 84.json
+[2025-12-05 14:59:14] [INFO] - Processing file: 85.json
+[2025-12-05 14:59:14] [INFO] - Found 2 line items in 85.json
+[2025-12-05 14:59:14] [INFO] - Processing file: test_0.json
+[2025-12-05 14:59:14] [INFO] - Found 3 line items in test_0.json
+[2025-12-05 14:59:14] [INFO] - Processing file: test_1.json
+[2025-12-05 14:59:14] [INFO] - Found 3 line items in test_1.json
+[2025-12-05 14:59:14] [INFO] - Processing file: test_10.json
+[2025-12-05 14:59:14] [INFO] - Found 3 line items in test_10.json
+[2025-12-05 14:59:14] [INFO] - Processing file: test_11.json
+[2025-12-05 14:59:14] [INFO] - Found 4 line items in test_11.json
+[2025-12-05 14:59:14] [INFO] - Processing file: test_12.json
+[2025-12-05 14:59:14] [INFO] - Found 3 line items in test_12.json
+[2025-12-05 14:59:14] [INFO] - Processing file: test_13.json
+[2025-12-05 14:59:14] [INFO] - Found 2 line items in test_13.json
+[2025-12-05 14:59:14] [INFO] - Processing file: test_2.json
+[2025-12-05 14:59:14] [INFO] - Found 2 line items in test_2.json
+[2025-12-05 14:59:14] [INFO] - Processing file: test_3.json
+[2025-12-05 14:59:14] [INFO] - Found 2 line items in test_3.json
+[2025-12-05 14:59:14] [INFO] - Processing file: test_4.json
+[2025-12-05 14:59:14] [INFO] - Found 4 line items in test_4.json
+[2025-12-05 14:59:14] [INFO] - Processing file: test_5.json
+[2025-12-05 14:59:14] [INFO] - Found 4 line items in test_5.json
+[2025-12-05 14:59:14] [INFO] - Processing file: test_6.json
+[2025-12-05 14:59:14] [INFO] - Found 3 line items in test_6.json
+[2025-12-05 14:59:14] [INFO] - Processing file: test_7.json
+[2025-12-05 14:59:14] [INFO] - Found 3 line items in test_7.json
+[2025-12-05 14:59:14] [INFO] - Processing file: test_8.json
+[2025-12-05 14:59:14] [INFO] - Found 2 line items in test_8.json
+[2025-12-05 14:59:14] [INFO] - Processing file: test_9.json
+[2025-12-05 14:59:14] [INFO] - Found 2 line items in test_9.json
+[2025-12-05 14:59:14] [INFO] - Processed 57 JSON files.
+[2025-12-05 14:59:14] [INFO] - Extracted 189 total line items.
+[2025-12-05 14:59:14] [INFO] - Converting data to DataFrame...
+[2025-12-05 14:59:14] [INFO] - Final DataFrame contains 189 rows and 36 columns.
+[2025-12-05 14:59:14] [INFO] - CSV file saved successfully → data/db/df_invoices.csv
+[2025-12-05 14:59:14] [INFO] - JSON → CSV pipeline completed.
+[2025-12-05 15:09:15] [INFO] - Starting JSON → CSV conversion...
+[2025-12-05 15:09:15] [INFO] - Reading JSON files from: data/processed
+[2025-12-05 15:09:47] [INFO] - Processing file: 1.json
+[2025-12-05 15:10:29] [INFO] - Found 4 line items in 1.json
+[2025-12-05 15:14:40] [INFO] - Starting JSON → CSV conversion...
+[2025-12-05 15:14:40] [INFO] - Reading JSON files from: data/processed
+[2025-12-05 15:14:43] [INFO] - Processing file: 1.json
+[2025-12-05 15:14:43] [INFO] - Found 4 line items in 1.json
+[2025-12-05 15:14:48] [INFO] - Processing file: 11.json
+[2025-12-05 15:14:48] [INFO] - Found 2 line items in 11.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 12.json
+[2025-12-05 15:14:58] [INFO] - Found 2 line items in 12.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 13.json
+[2025-12-05 15:14:58] [INFO] - Found 4 line items in 13.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 15.json
+[2025-12-05 15:14:58] [INFO] - Found 5 line items in 15.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 16.json
+[2025-12-05 15:14:58] [INFO] - Found 4 line items in 16.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 17.json
+[2025-12-05 15:14:58] [INFO] - Found 4 line items in 17.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 18.json
+[2025-12-05 15:14:58] [INFO] - Found 2 line items in 18.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 20.json
+[2025-12-05 15:14:58] [INFO] - Found 4 line items in 20.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 21.json
+[2025-12-05 15:14:58] [INFO] - Found 2 line items in 21.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 22.json
+[2025-12-05 15:14:58] [INFO] - Found 3 line items in 22.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 23.json
+[2025-12-05 15:14:58] [INFO] - Found 5 line items in 23.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 24.json
+[2025-12-05 15:14:58] [INFO] - Found 4 line items in 24.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 29.json
+[2025-12-05 15:14:58] [INFO] - Found 2 line items in 29.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 31.json
+[2025-12-05 15:14:58] [INFO] - Found 4 line items in 31.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 33.json
+[2025-12-05 15:14:58] [INFO] - Found 5 line items in 33.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 34.json
+[2025-12-05 15:14:58] [INFO] - Found 4 line items in 34.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 36.json
+[2025-12-05 15:14:58] [INFO] - Found 4 line items in 36.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 38.json
+[2025-12-05 15:14:58] [INFO] - Found 2 line items in 38.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 39.json
+[2025-12-05 15:14:58] [INFO] - Found 2 line items in 39.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 42.json
+[2025-12-05 15:14:58] [INFO] - Found 2 line items in 42.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 43.json
+[2025-12-05 15:14:58] [INFO] - Found 3 line items in 43.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 47.json
+[2025-12-05 15:14:58] [INFO] - Found 5 line items in 47.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 49.json
+[2025-12-05 15:14:58] [INFO] - Found 3 line items in 49.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 50.json
+[2025-12-05 15:14:58] [INFO] - Found 4 line items in 50.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 51.json
+[2025-12-05 15:14:58] [INFO] - Found 5 line items in 51.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 53.json
+[2025-12-05 15:14:58] [INFO] - Found 2 line items in 53.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 57.json
+[2025-12-05 15:14:58] [INFO] - Found 3 line items in 57.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 6.json
+[2025-12-05 15:14:58] [INFO] - Found 5 line items in 6.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 61.json
+[2025-12-05 15:14:58] [INFO] - Found 3 line items in 61.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 67.json
+[2025-12-05 15:14:58] [INFO] - Found 3 line items in 67.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 68.json
+[2025-12-05 15:14:58] [INFO] - Found 2 line items in 68.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 7.json
+[2025-12-05 15:14:58] [INFO] - Found 2 line items in 7.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 73.json
+[2025-12-05 15:14:58] [INFO] - Found 4 line items in 73.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 74.json
+[2025-12-05 15:14:58] [INFO] - Found 5 line items in 74.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 75.json
+[2025-12-05 15:14:58] [INFO] - Found 4 line items in 75.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 77.json
+[2025-12-05 15:14:58] [INFO] - Found 3 line items in 77.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 79.json
+[2025-12-05 15:14:58] [INFO] - Found 5 line items in 79.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 80.json
+[2025-12-05 15:14:58] [INFO] - Found 5 line items in 80.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 82.json
+[2025-12-05 15:14:58] [INFO] - Found 5 line items in 82.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 83.json
+[2025-12-05 15:14:58] [INFO] - Found 3 line items in 83.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 84.json
+[2025-12-05 15:14:58] [INFO] - Found 3 line items in 84.json
+[2025-12-05 15:14:58] [INFO] - Processing file: 85.json
+[2025-12-05 15:14:58] [INFO] - Found 2 line items in 85.json
+[2025-12-05 15:14:58] [INFO] - Processing file: test_0.json
+[2025-12-05 15:14:58] [INFO] - Found 3 line items in test_0.json
+[2025-12-05 15:14:58] [INFO] - Processing file: test_1.json
+[2025-12-05 15:14:58] [INFO] - Found 3 line items in test_1.json
+[2025-12-05 15:14:58] [INFO] - Processing file: test_10.json
+[2025-12-05 15:14:58] [INFO] - Found 3 line items in test_10.json
+[2025-12-05 15:14:58] [INFO] - Processing file: test_11.json
+[2025-12-05 15:14:58] [INFO] - Found 4 line items in test_11.json
+[2025-12-05 15:14:58] [INFO] - Processing file: test_12.json
+[2025-12-05 15:14:58] [INFO] - Found 3 line items in test_12.json
+[2025-12-05 15:14:58] [INFO] - Processing file: test_13.json
+[2025-12-05 15:14:58] [INFO] - Found 2 line items in test_13.json
+[2025-12-05 15:14:58] [INFO] - Processing file: test_2.json
+[2025-12-05 15:14:58] [INFO] - Found 2 line items in test_2.json
+[2025-12-05 15:14:58] [INFO] - Processing file: test_3.json
+[2025-12-05 15:14:58] [INFO] - Found 2 line items in test_3.json
+[2025-12-05 15:14:58] [INFO] - Processing file: test_4.json
+[2025-12-05 15:14:58] [INFO] - Found 4 line items in test_4.json
+[2025-12-05 15:14:58] [INFO] - Processing file: test_5.json
+[2025-12-05 15:14:58] [INFO] - Found 4 line items in test_5.json
+[2025-12-05 15:14:58] [INFO] - Processing file: test_6.json
+[2025-12-05 15:14:58] [INFO] - Found 3 line items in test_6.json
+[2025-12-05 15:14:58] [INFO] - Processing file: test_7.json
+[2025-12-05 15:14:58] [INFO] - Found 3 line items in test_7.json
+[2025-12-05 15:14:58] [INFO] - Processing file: test_8.json
+[2025-12-05 15:14:58] [INFO] - Found 2 line items in test_8.json
+[2025-12-05 15:14:58] [INFO] - Processing file: test_9.json
+[2025-12-05 15:14:58] [INFO] - Found 2 line items in test_9.json
+[2025-12-05 15:14:58] [INFO] - Processed 57 JSON files.
+[2025-12-05 15:14:58] [INFO] - Extracted 189 total line items.
+[2025-12-05 15:14:58] [INFO] - Converting data to DataFrame...
+[2025-12-05 15:14:58] [INFO] - Final DataFrame contains 189 rows and 35 columns.
+[2025-12-05 15:16:49] [INFO] - CSV file saved successfully → data/db/df_invoices.csv
+[2025-12-05 15:16:49] [INFO] - JSON → CSV pipeline completed.
+[2025-12-06 10:47:11] [INFO] - Starting JSON → CSV conversion...
+[2025-12-06 10:47:11] [INFO] - Reading JSON files from: data/processed
+[2025-12-06 10:47:11] [INFO] - Processing file: 1.json
+[2025-12-06 10:47:11] [INFO] - Found 4 line items in 1.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 11.json
+[2025-12-06 10:47:11] [INFO] - Found 2 line items in 11.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 12.json
+[2025-12-06 10:47:11] [INFO] - Found 2 line items in 12.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 13.json
+[2025-12-06 10:47:11] [INFO] - Found 4 line items in 13.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 15.json
+[2025-12-06 10:47:11] [INFO] - Found 5 line items in 15.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 16.json
+[2025-12-06 10:47:11] [INFO] - Found 4 line items in 16.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 17.json
+[2025-12-06 10:47:11] [INFO] - Found 4 line items in 17.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 18.json
+[2025-12-06 10:47:11] [INFO] - Found 2 line items in 18.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 20.json
+[2025-12-06 10:47:11] [INFO] - Found 4 line items in 20.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 21.json
+[2025-12-06 10:47:11] [INFO] - Found 2 line items in 21.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 22.json
+[2025-12-06 10:47:11] [INFO] - Found 3 line items in 22.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 23.json
+[2025-12-06 10:47:11] [INFO] - Found 5 line items in 23.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 24.json
+[2025-12-06 10:47:11] [INFO] - Found 4 line items in 24.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 29.json
+[2025-12-06 10:47:11] [INFO] - Found 2 line items in 29.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 31.json
+[2025-12-06 10:47:11] [INFO] - Found 4 line items in 31.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 33.json
+[2025-12-06 10:47:11] [INFO] - Found 5 line items in 33.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 34.json
+[2025-12-06 10:47:11] [INFO] - Found 4 line items in 34.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 36.json
+[2025-12-06 10:47:11] [INFO] - Found 4 line items in 36.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 38.json
+[2025-12-06 10:47:11] [INFO] - Found 2 line items in 38.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 39.json
+[2025-12-06 10:47:11] [INFO] - Found 2 line items in 39.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 42.json
+[2025-12-06 10:47:11] [INFO] - Found 2 line items in 42.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 43.json
+[2025-12-06 10:47:11] [INFO] - Found 3 line items in 43.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 47.json
+[2025-12-06 10:47:11] [INFO] - Found 5 line items in 47.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 49.json
+[2025-12-06 10:47:11] [INFO] - Found 3 line items in 49.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 50.json
+[2025-12-06 10:47:11] [INFO] - Found 4 line items in 50.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 51.json
+[2025-12-06 10:47:11] [INFO] - Found 5 line items in 51.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 53.json
+[2025-12-06 10:47:11] [INFO] - Found 2 line items in 53.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 57.json
+[2025-12-06 10:47:11] [INFO] - Found 3 line items in 57.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 6.json
+[2025-12-06 10:47:11] [INFO] - Found 5 line items in 6.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 61.json
+[2025-12-06 10:47:11] [INFO] - Found 3 line items in 61.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 67.json
+[2025-12-06 10:47:11] [INFO] - Found 3 line items in 67.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 68.json
+[2025-12-06 10:47:11] [INFO] - Found 2 line items in 68.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 7.json
+[2025-12-06 10:47:11] [INFO] - Found 2 line items in 7.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 73.json
+[2025-12-06 10:47:11] [INFO] - Found 4 line items in 73.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 74.json
+[2025-12-06 10:47:11] [INFO] - Found 5 line items in 74.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 75.json
+[2025-12-06 10:47:11] [INFO] - Found 4 line items in 75.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 77.json
+[2025-12-06 10:47:11] [INFO] - Found 3 line items in 77.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 79.json
+[2025-12-06 10:47:11] [INFO] - Found 5 line items in 79.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 80.json
+[2025-12-06 10:47:11] [INFO] - Found 5 line items in 80.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 82.json
+[2025-12-06 10:47:11] [INFO] - Found 5 line items in 82.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 83.json
+[2025-12-06 10:47:11] [INFO] - Found 3 line items in 83.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 84.json
+[2025-12-06 10:47:11] [INFO] - Found 3 line items in 84.json
+[2025-12-06 10:47:11] [INFO] - Processing file: 85.json
+[2025-12-06 10:47:11] [INFO] - Found 2 line items in 85.json
+[2025-12-06 10:47:11] [INFO] - Processing file: test_0.json
+[2025-12-06 10:47:11] [INFO] - Found 3 line items in test_0.json
+[2025-12-06 10:47:11] [INFO] - Processing file: test_1.json
+[2025-12-06 10:47:11] [INFO] - Found 3 line items in test_1.json
+[2025-12-06 10:47:11] [INFO] - Processing file: test_10.json
+[2025-12-06 10:47:11] [INFO] - Found 3 line items in test_10.json
+[2025-12-06 10:47:11] [INFO] - Processing file: test_11.json
+[2025-12-06 10:47:11] [INFO] - Found 4 line items in test_11.json
+[2025-12-06 10:47:11] [INFO] - Processing file: test_12.json
+[2025-12-06 10:47:11] [INFO] - Found 3 line items in test_12.json
+[2025-12-06 10:47:11] [INFO] - Processing file: test_13.json
+[2025-12-06 10:47:11] [INFO] - Found 2 line items in test_13.json
+[2025-12-06 10:47:11] [INFO] - Processing file: test_2.json
+[2025-12-06 10:47:11] [INFO] - Found 2 line items in test_2.json
+[2025-12-06 10:47:11] [INFO] - Processing file: test_3.json
+[2025-12-06 10:47:11] [INFO] - Found 2 line items in test_3.json
+[2025-12-06 10:47:11] [INFO] - Processing file: test_4.json
+[2025-12-06 10:47:11] [INFO] - Found 4 line items in test_4.json
+[2025-12-06 10:47:11] [INFO] - Processing file: test_5.json
+[2025-12-06 10:47:11] [INFO] - Found 4 line items in test_5.json
+[2025-12-06 10:47:11] [INFO] - Processing file: test_6.json
+[2025-12-06 10:47:11] [INFO] - Found 3 line items in test_6.json
+[2025-12-06 10:47:11] [INFO] - Processing file: test_7.json
+[2025-12-06 10:47:11] [INFO] - Found 3 line items in test_7.json
+[2025-12-06 10:47:11] [INFO] - Processing file: test_8.json
+[2025-12-06 10:47:11] [INFO] - Found 2 line items in test_8.json
+[2025-12-06 10:47:11] [INFO] - Processing file: test_9.json
+[2025-12-06 10:47:11] [INFO] - Found 2 line items in test_9.json
+[2025-12-06 10:47:11] [INFO] - Processed 57 JSON files.
+[2025-12-06 10:47:11] [INFO] - Extracted 189 total line items.
+[2025-12-06 10:47:11] [INFO] - Converting data to DataFrame...
+[2025-12-06 10:47:11] [INFO] - Final DataFrame contains 189 rows and 35 columns.
+[2025-12-06 10:47:11] [INFO] - CSV file saved successfully → data/db/df_invoices.csv
+[2025-12-06 10:47:11] [INFO] - JSON → CSV pipeline completed.

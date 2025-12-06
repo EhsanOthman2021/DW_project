@@ -1,0 +1,50 @@
+{
+  "invoice_number": "INV/81-29/926",
+  "invoice_date": "04-Jun-2020",
+  "due_date": "13-May-2003",
+  "vendor": {
+    "name": "Morton-Leach",
+    "address": "98324 Espinoza View, North Olivia, NY 66612 US",
+    "email": null,
+    "phone": null,
+    "website": null
+  },
+  "buyer": {
+    "name": "Brittany Ramos",
+    "address": "72262 Dominguez Pine Suite 236, Camposberg, NV 99238 US",
+    "email": "sanchez@example.net",
+    "phone": "+(183)822-7670",
+    "website": "http://peterson.com"
+  },
+  "line_items": [
+    {
+      "description": "Smile persons",
+      "quantity": 6.00,
+      "unit_price": 28.85,
+      "amount": 161.10
+    },
+    {
+      "description": "Floor military romain",
+      "quantity": 2.00,
+      "unit_price": 70.49,
+      "amount": 140.98
+    }
+  ],
+  "totals": {
+    "subtotal": 302.08,
+    "discount": 0.00,
+    "taxes": {
+      "VAT_3.70_percent": 11.18
+    },
+    "total_amount": 307.82,
+    "currency": "USD"
+  },
+  "bank_info": {
+    "bank_name": "State Bank of India",
+    "branch_name": "Raf CAMP.",
+    "account_number": "20000004512",
+    "swift_code": "SBININBB250"
+  },
+  "notes": "This order is shipped through blue dart courier.",
+  "terms": "Net 30, Bank Transfer, Payment due on 13-May-2003, Payment address: 98324 Espinoza View, North Olivia, NY 66612 US"
+}
