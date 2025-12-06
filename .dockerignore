@@ -11,13 +11,8 @@ __pycache__/
 *.pyc
 
 # Data folders (too big)
-data/db
-data/raw/
-data/processed_pre/
-data/splits/
+data copy
 
-logs/
-reports/
 offload/
 
 # AWS bundles
@@ -30,5 +25,3 @@ offload/
 .vscode/
 *.log
 
-# Large artifacts
-models/

@@ -1,6 +1,6 @@
 stages:
   preprocessing:
-    cmd: python src/preprocessing/main.py
+    cmd: PYTHONPATH=. python src/preprocessing/main.py
     deps:
       - src/preprocessing/main.py
       - src/preprocessing/prepare_disk_data.py
@@ -12,7 +12,7 @@ stages:
       - data/processed/
 
   db_pipeline:
-    cmd: python src/db/main.py
+    cmd: PYTHONPATH=. python src/db/main.py
     deps:
       - src/db/main.py
       - src/db/load_json_to_df.py
@@ -23,7 +23,7 @@ stages:
       - data/db/
 
   ml_pipeline:
-    cmd: python src/ml/main.py
+    cmd: PYTHONPATH=. python src/ml/main.py
     deps:
       - src/ml/main.py
       - src/ml/prepare_input.py
