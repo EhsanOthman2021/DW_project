@@ -1,0 +1,205 @@
+HIGH-LEVEL ARCHITECTURE DIAGRAM (Mermaid)
+
+---
+config:
+  layout: elk
+---
+flowchart LR
+    R["Raw Invoices<br>(pdfs, png, S3)"] --> P["Data &amp; ML Pipeline<br>(dvc.yaml + main_pipeline.py)"]
+    P --> A["Artifacts<br>data/processed/*.json<br>models/, reports/<br>test_with_predictions.csv"]
+    A --> API["Invoice Lookup API<br>FastAPI src/api/service.py<br>GET /predict/{file_name}"]
+    API --> D["Docker API Service<br>dockerfile + uvicorn<br>exposes :8080"]
+    D --> C["docker-compose.yml<br>AWS creds + S3 config<br>mount data/processed/"]
+
+
+INTERMEDIATE ARCHITECTURE DIAGRAM (Mermaid)
+
+flowchart LR
+
+    RAW[Raw Data<br/>(PDF, PNG, external sources)]
+
+    subgraph PIPE[Data & ML Pipeline (DVC)]
+        CONF[config.json]
+        STEP1[Preprocessing<br/>Save to data/processed/*.json]
+        STEP2[Train Model<br/>model_xgb.json + scaler.pkl]
+        STEP3[Generate Reports<br/>accuracy.html + roc_curve.html]
+        STEP4[Create Predictions<br/>test_with_predictions.csv]
+    end
+
+    subgraph ARTIFACTS[Artifacts Created]
+        PJSON[data/processed/*.json]
+        PMODEL[models/model_xgb.json]
+        PSCALE[models/scaler.pkl]
+        PREPORT[reports/*.html]
+        PPRED[test_with_predictions.csv]
+    end
+
+    subgraph API[FastAPI Service<br/>src/api/service.py]
+        LOADJSON[Load JSON invoice records]
+        LOADCSV[Load test_with_predictions.csv]
+        MERGE[Merge JSON + predictions]
+        GET1[GET /]
+        GET2[GET /predict/{file_name}]
+    end
+
+    subgraph DEPLOY[Deployment]
+        DOC[Dockerfile<br/>runs uvicorn]
+        COMP[docker-compose<br/>AWS env + S3 download]
+        S3[(S3 bucket<br/>my-fatura2-bucket)]
+    end
+
+    RAW --> STEP1 --> STEP2 --> STEP3 --> STEP4
+    STEP1 --> PJSON
+    STEP2 --> PMODEL --> PSCALE
+    STEP3 --> PREPORT
+    STEP4 --> PPRED
+
+    PJSON --> LOADJSON
+    PPRED --> LOADCSV
+    LOADJSON --> MERGE --> GET1
+    MERGE --> GET2
+
+    GET1 --> DOC
+    GET2 --> DOC
+    DOC --> COMP
+    COMP --> S3
+
+
+FULL DETAILED ENTERPRISE-LEVEL ARCHITECTURE DIAGRAM
+flowchart TB
+
+    %% ------------------------
+    %% DATA SOURCES
+    %% ------------------------
+    subgraph DS[Data Sources]
+        R1[Raw Invoice PDFs]
+        R2[Raw Images (PNG/JPG)]
+        R3[S3 Input Bucket<br/>my-fatura2-bucket]
+    end
+
+    %% ------------------------
+    %% PIPELINE
+    %% ------------------------
+    subgraph PIPE[Data & ML Pipeline (DVC)]
+        YAML[dvc.yaml]
+        MAIN[main_pipline.py]
+        CONF[config.json]
+
+        P1[Step 1: Load & Preprocess<br/>clean text, extract metadata<br/>→ data/processed/*.json]
+        P2[Step 2: Train ML Model<br/>XGBoost / features<br/>→ models/model_xgb.json + scaler.pkl]
+        P3[Step 3: Evaluate<br/>→ reports/accuracy.html<br/>→ reports/roc_curve.html]
+        P4[Step 4: Create Predictions<br/>→ test_with_predictions.csv]
+    end
+
+    %% ------------------------
+    %% ARTIFACTS
+    %% ------------------------
+    subgraph ARTIFACTS[Artifacts Generated]
+        A1[data/processed/*.json]
+        A2[models/model_xgb.json]
+        A3[models/scaler.pkl]
+        A4[reports/*.html]
+        A5[test_with_predictions.csv]
+        CACHE[DVC Cache]
+    end
+
+    %% ------------------------
+    %% API SERVICE
+    %% ------------------------
+    subgraph API[FastAPI Application<br/>src/api/service.py]
+        LOADJ[Load invoice json files]
+        LOADC[Load predictions CSV]
+        MERGE[Merge metadata + true_label + predicted_label]
+        END1[Endpoint: GET /]
+        END2[Endpoint: GET /predict/{file_name}]
+    end
+
+    %% ------------------------
+    %% DEPLOY
+    %% ------------------------
+    subgraph DEPLOY[Docker Deployment]
+        DOCK[Dockerfile<br/>uvicorn src.api.service:app]
+        COMP[docker-compose.yml<br/>AWS creds + S3 paths<br/>Volume mounts]
+        S3D[(S3 Download<br/>invoice_model_reports/test_with_predictions.csv)]
+        RUN[Running Container<br/>Port 8080]
+    end
+
+    %% DATA FLOW
+    R1 --> P1
+    R2 --> P1
+    R3 --> P1
+    CONF --> MAIN
+    YAML --> MAIN
+
+    P1 --> A1
+    P2 --> A2
+    P2 --> A3
+    P3 --> A4
+    P4 --> A5
+
+    A1 --> LOADJ
+    A5 --> LOADC
+    LOADJ --> MERGE
+    LOADC --> MERGE
+
+    MERGE --> END1
+    MERGE --> END2
+
+    END1 --> DOCK
+    END2 --> DOCK
+    DOCK --> COMP
+    COMP --> S3D
+    COMP --> RUN
+
+dag
+
+flowchart TD
+
+    %% ========================
+    %% Data Sources
+    %% ========================
+    RAW[Raw Invoice Data - PDF - PNG - S3]
+    
+    %% ========================
+    %% Preprocessing Layer
+    %% ========================
+    PRE[Preprocessing Layer Extract → Clean → Standardize]
+
+    %% ========================
+    %% Database Layer
+    %% ========================
+    DB[Structured Invoice Dataset - SQLite / DataFrames]
+
+    %% ========================
+    %% ML Preparation
+    %% ========================
+    ML_PREP[ML Preparation Corrected Totals - Labels - Loss Analysis]
+
+    %% ========================
+    %% ML Pipeline
+    %% ========================
+    ML_PIPE[ML Pipeline Feature Engineering → Training → Evaluation]
+
+    MODEL[ML Artifacts Model - Scaler - Reports]
+    PRED[Predictions File test_with_predictions.csv]
+
+    %% ========================
+    %% API Layer
+    %% ========================
+    API[FastAPI Invoice Service Merge Metadata - Predictions]
+
+    %% ========================
+    %% Deployment Layer
+    %% ========================
+    DEPLOY[Docker + AWS Deployment Production InvoiceCompute Platform]
+
+
+    %% ========================
+    %% Flow Connections
+    %% ========================
+    RAW --> PRE --> DB --> ML_PREP --> ML_PIPE
+    ML_PIPE --> MODEL
+    ML_PIPE --> PRED
+    PRED --> API
+    DB --> API
+    API --> DEPLOY
