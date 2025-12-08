@@ -16,7 +16,7 @@ def main():
 
     # 1️ PREPROCESSING
     logging.info("Step 1: Running preprocessing pipeline...")
-  #  run_preprocessing()
+    run_preprocessing()
     logging.info("Preprocessing completed.\n")
 
     # 2️ DB PIPELINE
