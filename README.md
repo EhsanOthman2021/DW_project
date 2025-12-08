@@ -8,7 +8,7 @@ The system is designed to:
 - Clean and transform the data into structured JSON
 - Train an ML model using DVC
 - Produce evaluation reports and predictions
-- Serve predictions and invoice metadata via a REST API
+- Serve predictions and invoice metadata via a Fast API
 - Deploy the API using Docker + docker-compose
 - Optionally download prediction files from AWS S3
 
@@ -128,10 +128,11 @@ uvicorn src.api.service:app --host 0.0.0.0 --port 8080
 
 ## ▶️ How to Run
 
-### 1. Install dependencies
+# Install dependencies using the pyproject.toml file
 ```
-pip install -r requirements.txt
+pip install .
 ```
+
 
 ### 2. Run the ML pipeline
 ```
@@ -159,6 +160,3 @@ docker-compose up --build
 Developed by **Ehsan Othman** as part of the DW Project.
 
 ---
-
-## 📜 License
-MIT License (modify if needed).
