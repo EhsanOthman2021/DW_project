@@ -10,6 +10,7 @@ stages:
     outs:
       - data/raw/
       - data/processed/
+      - data/processed_pre/
 
   db_pipeline:
     cmd: PYTHONPATH=. python src/db/main.py
@@ -31,5 +32,6 @@ stages:
       - src/ml/evaluation.py
       - data/db/
     outs:
+      - data/splits/
       - models/
       - reports/
